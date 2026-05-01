@@ -38,6 +38,15 @@ local SETTINGS = {
             y_rotation = 160.0,
             z_rotation = 20.0
         },
+        compact_back_beanbag = {
+            bone = 24816,
+            x = 0.275,
+            y = -0.15,
+            z = 0.15,
+            x_rotation = 270.0, 
+            y_rotation = 160.0,
+            z_rotation = 20.0
+        },
         compact_back_alt = {
             bone = 24816,
             x = 0.260,
@@ -65,9 +74,12 @@ for _, weaponName in ipairs({"WEAPON_CARBINERIFLE", "WEAPON_CARBINERIFLE_MK2", "
     RegisterCarryWeapon("front", weaponName)
 end
 
-for _, weaponName in ipairs({"WEAPON_LSPD40MM", "WEAPON_LSSD40MM", "WEAPON_BCSO40MM", "WEAPON_GRENADELAUNCHER_SMOKE",
-                             "weapon_lspdbb", "weapon_lssdbb", "weapon_sahpbb"}) do
+for _, weaponName in ipairs({"WEAPON_LSPD40MM", "WEAPON_LSSD40MM", "WEAPON_BCSO40MM", "WEAPON_GRENADELAUNCHER_SMOKE"}) do
     RegisterCarryWeapon("compact_back", weaponName)
+end
+
+for _, weaponName in ipairs({"weapon_lspdbb", "weapon_lssdbb", "weapon_sahpbb"}) do
+    RegisterCarryWeapon("compact_back_beanbag", weaponName)
 end
 
 for _, weaponName in ipairs({"WEAPON_SNIPERRIFLE", "WEAPON_MARKSMANRIFLE", "WEAPON_MARKSMANRIFLE_MK2", "WEAPON_MUSKET",
