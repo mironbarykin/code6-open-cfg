@@ -82,6 +82,9 @@
         "weapon_mp9",
         "weapon_lspdbb",
         "weapon_lssdbb",
-        "weapon_sahpbb"
-    ]
+        "weapon_sahpbb",
+        "WEAPON_GSTREAMLIGHT",
+        "WEAPON_RSTREAMLIGHT"
+    ],
+    "weapon_components": []
 }
