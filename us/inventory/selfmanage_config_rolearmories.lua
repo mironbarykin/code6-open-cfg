@@ -48,6 +48,7 @@ local taserGreen = { tint = 1, weapontint = 'Green' }
 local taserGold = { tint = 2, weapontint = 'Gold' }
 local pistolLight = { components = { 'at_flashlight' } }
 local riflePatrol = { components = { 'at_flashlight', 'at_grip' } }
+local shotgunPatrol = { components = { 'at_flashlight' } }
 
 Config.RoleArmories = {
     enabled = true,
@@ -359,9 +360,11 @@ Config.RoleArmories = {
                 { name = 'WEAPON_FLASHLIGHT' },
                 { name = 'WEAPON_NIGHTSTICK' },
                 { name = 'WEAPON_TASER7', metadata = armoryWeaponMetadata('Highway Patrol Armory', taserGold) },
-                { name = 'WEAPON_COMBATPISTOL', metadata = armoryWeaponMetadata('Highway Patrol Armory', pistolLight) },
+                { name = 'WEAPON_MP9' },
+                { name = 'WEAPON_PUMPSHOTGUN', metadata = armoryWeaponMetadata('Highway Patrol Armory', shotgunPatrol) },
                 { name = 'WEAPON_CARBINERIFLE', metadata = armoryWeaponMetadata('Highway Patrol Armory', riflePatrol) },
                 { name = 'WEAPON_TACTICALRIFLE', metadata = armoryWeaponMetadata('Highway Patrol Armory', riflePatrol) },
+                { name = 'WEAPON_HAMMER' },
                 { name = 'WEAPON_SAHPBB' },
                 { name = 'WEAPON_PROLASER4' },
             },
