@@ -1,3 +1,62 @@
+
+Config.ItemTemplates = {
+    commands = {
+        create = 'itemcreate',
+        search = 'itemsearch',
+        mine = 'myitems',
+    },
+    baseItems = {
+        custom_item = {
+            label = 'Предмет',
+        },
+        custom_document = {
+            label = 'Документ',
+        },
+        custom_tool = {
+            label = 'Инструмент',
+        },
+        custom_prop = {
+            label = 'Проп',
+        },
+    },
+    weapons = {
+        enabled = true,
+        optionPrefix = 'Weapon: ',
+    },
+    maxSearchResults = 50,
+    maxLabelLength = 100,
+    maxDescriptionLength = 500,
+    maxCustomWeightOz = 1760,
+}
+
+Config.InventorySearch = {
+    enabled = true,
+    allowedRoles = {
+        pd = true,
+        so = true,
+        hp = true,
+        fd = true,
+        fib = true,
+    },
+    targetIcon = 'fas fa-box-open',
+    targetLabel = 'Обыскать',
+    targetDistance = 2.0,
+}
+
+Config.Radial = {
+    enabled = true,
+    rootId = 'code6_selfmanage',
+    rootLabel = 'Управление',
+    icon = 'box-open',
+    items = {
+        create = 'Создать предмет',
+        mine = 'Мои предметы',
+        locker = 'Общий локер',
+        armory = 'Арсенал',
+        refresh = 'Обновить роль',
+    },
+}
+
 Config.RoleLockers = {
     enabled = true,
     slots = 80,
@@ -302,6 +361,7 @@ Config.RoleArmories = {
                 { name = 'handcuffs' },
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
+                { name = 'WEAPON_KNIFE' },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'ammo-shotgun' },
@@ -329,6 +389,7 @@ Config.RoleArmories = {
                 { name = 'handcuffs' },
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
+                { name = 'WEAPON_KNIFE' },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'ammo-shotgun' },
@@ -354,6 +415,7 @@ Config.RoleArmories = {
                 { name = 'handcuffs' },
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
+                { name = 'WEAPON_KNIFE' },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'ammo-shotgun' },
@@ -379,6 +441,7 @@ Config.RoleArmories = {
                 { name = 'handcuffs' },
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
+                { name = 'WEAPON_KNIFE' },
                 { name = 'WEAPON_PROLASER4' },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
