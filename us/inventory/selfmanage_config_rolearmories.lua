@@ -308,7 +308,8 @@ Config.RoleArmories = {
                 { name = 'ammo-grenade' },
                 { name = 'WEAPON_FLASHLIGHT' },
                 { name = 'WEAPON_NIGHTSTICK' },
-                { name = 'WEAPON_TASER7', metadata = armoryWeaponMetadata('Police Armory', taserGreen) },
+                { name = 'WEAPON_STUNGUN', metadata = armoryWeaponMetadata('Police Armory', taserGreen) }, -- LSPD Taser добавлен
+                { name = 'WEAPON_TASER7', metadata = armoryWeaponMetadata('Police Armory', taserGold) }, -- taserGreen заменён на taserGold
                 { name = 'WEAPON_COMBATPISTOL', metadata = armoryWeaponMetadata('Police Armory', pistolLight) },
                 { name = 'WEAPON_CARBINERIFLE', metadata = armoryWeaponMetadata('Police Armory', riflePatrol) },
                 { name = 'WEAPON_LESSLAUNCHER' },
