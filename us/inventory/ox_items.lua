@@ -114,6 +114,39 @@ return {
 		consume = 0
 	},
 
+	['police_duffle_bag'] = {
+		label = 'Duffle Bag',
+		weight = 1200,
+		stack = false,
+		close = false,
+		consume = 0,
+		client = {
+			image = 'police_duffle_bag.png'
+		}
+	},
+
+	['police_duffle_bag_large'] = {
+		label = 'Duffle Bag 2',
+		weight = 1800,
+		stack = false,
+		close = false,
+		consume = 0,
+		client = {
+			image = 'police_duffle_bag_large.png'
+		}
+	},
+
+	['police_backpack'] = {
+		label = 'Backpack',
+		weight = 1600,
+		stack = false,
+		close = false,
+		consume = 0,
+		client = {
+			image = 'police_backpack.png'
+		}
+	},
+
 	['identification'] = {
 		label = 'Удостоверение личности',
 		client = {
