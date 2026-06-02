@@ -4,351 +4,611 @@ Animations.List = {
     ["style_standard"] = {
         anim_male = "move_m@generic",
         anim_female = "move_f@multiplayer",
-        label = "Style: Standard",
+        label = "Standard",
         category = "style"
     },
     ["style_lame"] = {
         anim = "move_m@injured",
-        label = "Style: Lame",
+        label = "Injured",
         category = "style"
     },
     ["style_lame2"] = {
         anim = "move_heist_lester",
-        label = "Style: Lame 2",
+        label = "Lester",
         category = "style"
     },
     ["style_ladies"] = {
         anim = "move_f@generic",
-        label = "Style: Ladies",
+        label = "Generic Female",
         category = "style"
     },
     ["style_ladies2"] = {
         anim = "move_f@sexy@a",
-        label = "Style: Ladies 2",
+        label = "Sexy",
         category = "style"
     },
     ["style_ladies3"] = {
-        anim = "MOVE_F@FEMME@",
-        label = "Style: Ladies 3",
+        anim = "move_f@femme@",
+        label = "Femme",
         category = "style"
     },
     ["style_casual"] = {
         anim = "move_m@casual@a",
-        label = "Style: Casual",
+        label = "Casual",
         category = "style"
     },
     ["style_casual2"] = {
         anim = "move_m@casual@b",
-        label = "Style: Casual 2",
+        label = "Casual 2",
         category = "style"
     },
     ["style_casual3"] = {
         anim = "move_m@casual@c",
-        label = "Style: Casual 3",
+        label = "Casual 3",
         category = "style"
     },
     ["style_professor"] = {
         anim = "move_m@business@c",
-        label = "Style: Professor",
+        label = "Cop 3",
         category = "style"
     },
     ["style_slow"] = {
-        anim = "move_characters@Jimmy@slow@",
-        label = "Style: Slow",
+        anim = "move_characters@jimmy@slow@",
+        label = "Slow",
         category = "style"
     },
     ["style_slow2"] = {
         anim = "move_p_m_zero_slow",
-        label = "Style: Slow 2",
+        label = "Janitor 2",
         category = "style"
     },
     ["style_haste"] = {
         anim = "move_m@hurry@a",
-        label = "Style: Haste",
+        label = "Haste",
         category = "style"
     },
     ["style_trot"] = {
         anim = "move_m@quick",
-        label = "Style: Trot",
+        label = "Quick",
         category = "style"
     },
     ["style_sassy"] = {
         anim = "move_m@sassy",
-        label = "Style: Sassy",
+        label = "Sassy",
         category = "style"
     },
     ["style_loose"] = {
         anim = "move_m@casual@e",
-        label = "Style: Loose",
+        label = "Casual 5",
         category = "style"
     },
     ["style_loose2"] = {
         anim = "move_m@casual@d",
-        label = "Style: Loose 2",
+        label = "Casual 4",
         category = "style"
     },
     ["style_loose3"] = {
         anim = "move_m@tough_guy@",
-        label = "Style: Loose 3",
+        label = "Tough",
         category = "style"
     },
     ["style_loose4"] = {
         anim = "move_m@hipster@a",
-        label = "Style: Loose 4",
+        label = "Hipster",
         category = "style"
     },
     ["style_loose5"] = {
         anim = "move_m@bag",
-        label = "Style: Loose 5",
+        label = "Wide",
         category = "style"
     },
     ["style_sad"] = {
         anim = "move_m@sad@a",
-        label = "Style: Sad",
+        label = "Sad Male",
         category = "style"
     },
     ["style_sad2"] = {
         anim = "move_m@gangster@var_f",
-        label = "Style: Sad 2",
+        label = "Gangster 9",
         category = "style"
     },
     ["style_depressed"] = {
         anim = "move_m@depressed@a",
-        label = "Style: Depressed",
+        label = "Depressed",
         category = "style"
     },
     ["style_business"] = {
         anim_male = "move_m@business@a",
         anim_female = "move_f@business@a",
-        label = "Style: Business",
+        label = "Business",
         category = "style"
     },
     ["style_belated"] = {
         anim = "move_m@casual@f",
-        label = "Style: Belated",
+        label = "Casual 6",
         category = "style"
     },
     ["style_nervous"] = {
         anim = "move_m@fire",
-        label = "Style: Nervous",
+        label = "Fire 3",
         category = "style"
     },
     ["style_nervous2"] = {
         anim = "move_m@hurry_butch@a",
-        label = "Style: Nervous 2",
+        label = "Butch",
         category = "style"
     },
     ["style_nervous3"] = {
         anim = "move_m@hurry_butch@b",
-        label = "Style: Nervous 3",
+        label = "Butch 2",
         category = "style"
     },
     ["style_freak"] = {
         anim = "move_m@hobo@a",
-        label = "Style: Freak",
+        label = "Hobo",
         category = "style"
     },
     ["style_scared"] = {
         anim = "move_m@scared",
-        label = "Style: Scared",
+        label = "Scared",
         category = "style"
     },
     ["style_cossack"] = {
         anim = "move_m@brave@a",
-        label = "Style: Cossack",
+        label = "Brave 2",
         category = "style"
     },
     ["style_cossack2"] = {
         anim = "move_m@muscle@a",
-        label = "Style: Cossack 2",
+        label = "Muscle",
         category = "style"
     },
     ["style_cossack3"] = {
         anim = "move_m@intimidation@1h",
-        label = "Style: Cossack 3",
+        label = "Intimidation",
         category = "style"
     },
     ["style_cossack4"] = {
         anim = "move_p_m_one",
-        label = "Style: Cossack 4",
+        label = "Franklin",
         category = "style"
     },
     ["style_gangster"] = {
         anim = "move_m@gangster@generic",
-        label = "Style: Gangster",
+        label = "Gangster",
         category = "style"
     },
     ["style_gangster2"] = {
         anim = "move_m@shadyped@a",
-        label = "Style: Gangster 2",
+        label = "Shady",
         category = "style"
     },
     ["style_swag"] = {
         anim = "move_m@swagger",
-        label = "Style: Swag",
+        label = "Swagger",
         category = "style"
     },
     ["style_skinnyguy"] = {
         anim_male = "move_m@fat@a",
         anim_female = "move_f@fat@a",
-        label = "Style: Skinny guy",
+        label = "Skinny guy",
         category = "style"
     },
     ["style_skinnyguy2"] = {
-        anim = "ANIM_GROUP_MOVE_BALLISTIC",
-        label = "Style: Skinny guy 2",
+        anim = "anim_group_move_ballistic",
+        label = "Armored",
         category = "style"
     },
     ["style_skinnyguy3"] = {
         anim = "move_characters@franklin@fire",
-        label = "Style: Skinny guy 3",
+        label = "Fire",
         category = "style"
     },
     ["style_skinnyguy4"] = {
         anim = "move_characters@michael@fire",
-        label = "Style: Skinny guy 4",
+        label = "Fire 2",
         category = "style"
     },
     ["style_crooked"] = {
         anim = "move_ped_bucket",
-        label = "Style: Crooked",
+        label = "Michael",
         category = "style"
     },
     ["style_grace"] = {
         anim = "move_m@money",
-        label = "Style: with Grace",
+        label = "Money",
         category = "style"
     },
     ["style_gay"] = {
-        anim = "MOVE_M@FEMME@",
-        label = "Style: Gay",
+        anim = "move_m@femme@",
+        label = "Femme 2",
         category = "style"
     },
     ["style_poseur"] = {
         anim = "move_m@posh@",
-        label = "Style: Poseur",
+        label = "Posh",
         category = "style"
     },
     ["style_party"] = {
         anim = "anim@move_m@grooving@slow@",
-        label = "Style: Party",
+        label = "Party",
         category = "style"
     },
     ["style_cop"] = {
         anim = "move_m@intimidation@cop@unarmed",
-        label = "Style: Cop",
+        label = "Intimidation 2",
         category = "style"
     },
     ["style_drunk2"] = {
         anim = "move_m@drunk@verydrunk",
-        label = "Style: Drunk 2",
+        label = "Drunk 6 - Very Drunk",
         category = "style"
     },
     ["style_gangster3"] = {
         anim = "move_m@gangster@var_e",
-        label = "Style: Gangster 3",
+        label = "Gangster 8",
         category = "style"
     },
     ["style_gangster4"] = {
         anim = "move_m@gangster@var_i",
-        label = "Style: Gangster 4",
+        label = "Gangster 12",
         category = "style"
     },
     ["style_grooving"] = {
         anim_male = "anim@move_m@grooving@",
         anim_female = "anim@move_f@grooving@",
-        label = "Style: Grooving",
+        label = "Grooving",
         category = "style"
     },
     ["style_grooving2"] = {
         anim_male = "anim@move_m@grooving@slow@",
         anim_female = "anim@move_f@grooving@slow@",
-        label = "Style: Grooving 2",
+        label = "Grooving 2",
         category = "style"
     },
     ["style_guard"] = {
         anim = "move_m@prison_gaurd",
-        label = "Style: Guard",
+        label = "Guard",
         category = "style"
     },
     ["style_handcuffs"] = {
         anim = "move_m@prisoner_cuffed",
-        label = "Style: Handcuffs",
+        label = "Handcuffs",
         category = "style"
     },
     ["style_heels"] = {
         anim = "move_f@heels@c",
-        label = "Style: Heels",
+        label = "Heels",
         category = "style"
     },
     ["style_heels2"] = {
         anim = "move_f@heels@d",
-        label = "Style: Heels 2",
+        label = "Heels 2",
         category = "style"
     },
     ["style_trash"] = {
         anim = "clipset@move@trash_fast_turn",
-        label = "Style: Trash ",
+        label = "Trash",
         category = "style"
     },
     ["style_trash2"] = {
         anim = "missfbi4prepp1_garbageman",
-        label = "Style: Trash 2",
+        label = "Trash 2",
         category = "style"
     },
     ["style_runner"] = {
         anim = "female_fast_runner",
-        label = "Style: Runner",
+        label = "Runner",
         category = "style"
     },
     ["style_chichi"] = {
         anim = "move_f@chichi",
-        label = "Style: Chichi",
+        label = "Chichi",
         category = "style"
     },
     ["style_confident"] = {
         anim = "move_m@confident",
-        label = "Style: Confident",
+        label = "Confident",
         category = "style"
     },
     ["style_cop2"] = {
         anim = "move_m@business@b",
-        label = "Style: Cop 2",
+        label = "Cop 2",
         category = "style"
     },
     ["style_flee"] = {
         anim = "move_f@flee@a",
-        label = "Style: Flee",
+        label = "Flee",
         category = "style"
     },
     ["style_prison"] = {
-        anim = "anim@move_m@prison_gaurd",
-        label = "Style: Prison Guard",
+        anim = "move_m@prison_gaurd",
+        label = "Guard",
         category = "style"
     },
     ["style_alien"] = {
         anim = "move_m@alien",
-        label = "Style: Alien",
+        label = "Alien",
         category = "style"
     },
     ["style_clipboard"] = {
         anim = "move_m@clipboard",
-        label = "Style: Clipboard",
+        label = "Clipboard",
         category = "style"
     },
     ["style_coward"] = {
         anim = "move_m@coward",
-        label = "Style: Coward",
+        label = "Coward",
         category = "style"
     },
     ["style_drunk"] = {
         anim = "move_m@drunk@a",
-        label = "Style: Drunk",
+        label = "Drunk",
         category = "style"
     },
     ["style_exhausted"] = {
-        anim = "move_f@exhausted",
-        label = "Style: Exhausted Female",
+        anim = "move_f@injured",
+        label = "Exhausted Female",
+        category = "style"
+    },
+    ["style_butch3"] = {
+        anim = "move_m@hurry_butch@c",
+        label = "Butch 3",
+        category = "style"
+    },
+    ["style_buzzed"] = {
+        anim = "move_m@buzzed",
+        label = "Buzzed",
+        category = "style"
+    },
+    ["style_brave"] = {
+        anim = "move_m@brave",
+        label = "Brave",
+        category = "style"
+    },
+    ["style_casey"] = {
+        anim = "move_casey",
+        label = "Casey",
+        category = "style"
+    },
+    ["style_dave"] = {
+        anim = "move_characters@dave_n",
+        label = "Dave",
+        category = "style"
+    },
+    ["style_defaultmale"] = {
+        anim = "move_m@multiplayer",
+        label = "Default Male",
+        category = "style"
+    },
+    ["style_depressed2"] = {
+        anim = "move_m@depressed@b",
+        label = "Depressed 2",
+        category = "style"
+    },
+    ["style_depressed3"] = {
+        anim = "move_f@depressed@a",
+        label = "Depressed 3",
+        category = "style"
+    },
+    ["style_depressed4"] = {
+        anim = "move_f@depressed@c",
+        label = "Depressed 4",
+        category = "style"
+    },
+    ["style_dreyfuss"] = {
+        anim = "move_dreyfuss",
+        label = "Dreyfuss",
+        category = "style"
+    },
+    ["style_drunk3"] = {
+        anim = "move_m@drunk@moderatedrunk",
+        label = "Drunk 3 - Moderate",
+        category = "style"
+    },
+    ["style_drunk4"] = {
+        anim = "move_m@drunk@moderatedrunk_head_up",
+        label = "Drunk 4 - Moderate 2",
+        category = "style"
+    },
+    ["style_drunk5"] = {
+        anim = "move_m@drunk@slightlydrunk",
+        label = "Drunk 5 - Slightly Drunk",
+        category = "style"
+    },
+    ["style_fat3"] = {
+        anim = "move_m@fat@bulky",
+        label = "Fat & Bulky",
+        category = "style"
+    },
+    ["style_fat4"] = {
+        anim = "move_f@fat@a_no_add",
+        label = "Fat Female 2",
+        category = "style"
+    },
+    ["style_flee2"] = {
+        anim = "move_f@flee@c",
+        label = "Flee 2",
+        category = "style"
+    },
+    ["style_flee3"] = {
+        anim = "move_m@flee@a",
+        label = "Flee 3",
+        category = "style"
+    },
+    ["style_flee4"] = {
+        anim = "move_m@flee@b",
+        label = "Flee 4",
+        category = "style"
+    },
+    ["style_flee5"] = {
+        anim = "move_m@flee@c",
+        label = "Flee 5",
+        category = "style"
+    },
+    ["style_floyd"] = {
+        anim = "move_characters@floyd",
+        label = "Floyd",
+        category = "style"
+    },
+    ["style_gangsterb"] = {
+        anim = "move_gangster",
+        label = "Gangster 2",
+        category = "style"
+    },
+    ["style_gangsterd"] = {
+        anim = "move_m@gangster@var_a",
+        label = "Gangster 4",
+        category = "style"
+    },
+    ["style_gangstere"] = {
+        anim = "move_m@gangster@var_b",
+        label = "Gangster 5",
+        category = "style"
+    },
+    ["style_gangsterf"] = {
+        anim = "move_m@gangster@var_c",
+        label = "Gangster 6",
+        category = "style"
+    },
+    ["style_gangsterg"] = {
+        anim = "move_m@gangster@var_d",
+        label = "Gangster 7",
+        category = "style"
+    },
+    ["style_gangsterj"] = {
+        anim = "move_m@gangster@var_g",
+        label = "Gangster 10",
+        category = "style"
+    },
+    ["style_gangsterk"] = {
+        anim = "move_m@gangster@var_h",
+        label = "Gangster 11",
+        category = "style"
+    },
+    ["style_gangsterm"] = {
+        anim = "move_m@gangster@var_j",
+        label = "Gangster 13",
+        category = "style"
+    },
+    ["style_gangstern"] = {
+        anim = "move_m@gangster@var_k",
+        label = "Gangster 14",
+        category = "style"
+    },
+    ["style_hiking2"] = {
+        anim = "move_f@hiking",
+        label = "Hiking 2",
+        category = "style"
+    },
+    ["style_hobo2"] = {
+        anim = "move_m@hobo@b",
+        label = "Hobo 2",
+        category = "style"
+    },
+    ["style_injured2"] = {
+        anim = "move_f@injured",
+        label = "Injured 2 - Female",
+        category = "style"
+    },
+    ["style_intimidation3"] = {
+        anim = "move_m@intimidation@unarmed",
+        label = "Intimidation 3",
+        category = "style"
+    },
+    ["style_jimmy"] = {
+        anim = "move_characters@jimmy",
+        label = "Jimmy",
+        category = "style"
+    },
+    ["style_lamar"] = {
+        anim = "move_characters@lamar",
+        label = "Lamar",
+        category = "style"
+    },
+    ["style_lamar2"] = {
+        anim = "anim_group_move_lemar_alley",
+        label = "Lamar 2",
+        category = "style"
+    },
+    ["style_lester2"] = {
+        anim = "move_lester_caneup",
+        label = "Lester 2",
+        category = "style"
+    },
+    ["style_nervous4"] = {
+        anim = "move_characters@jimmy@nervous@",
+        label = "Nervous",
+        category = "style"
+    },
+    ["style_patricia"] = {
+        anim = "move_characters@patricia",
+        label = "Patricia",
+        category = "style"
+    },
+    ["style_paramedic"] = {
+        anim = "move_paramedic",
+        label = "Paramedic",
+        category = "style"
+    },
+    ["style_posh2"] = {
+        anim = "move_f@posh@",
+        label = "Posh 2",
+        category = "style"
+    },
+    ["style_ron"] = {
+        anim = "move_characters@ron",
+        label = "Ron",
+        category = "style"
+    },
+    ["style_sad_male2"] = {
+        anim = "move_m@sad@b",
+        label = "Sad Male 2",
+        category = "style"
+    },
+    ["style_sad3"] = {
+        anim = "move_m@sad@c",
+        label = "Sad Male 3",
+        category = "style"
+    },
+    ["style_sad4"] = {
+        anim = "move_f@sad@a",
+        label = "Sad Female",
+        category = "style"
+    },
+    ["style_sad5"] = {
+        anim = "move_f@sad@b",
+        label = "Sad Female 2",
+        category = "style"
+    },
+    ["style_stripper"] = {
+        anim = "move_f@stripper@a",
+        label = "Stripper",
+        category = "style"
+    },
+    ["style_swagger2"] = {
+        anim = "move_m@swagger@b",
+        label = "Swagger 2",
+        category = "style"
+    },
+    ["style_toolbelt"] = {
+        anim = "move_m@tool_belt@a",
+        label = "Toolbelt Male",
+        category = "style"
+    },
+    ["style_toolbelt2"] = {
+        anim = "move_f@tool_belt@a",
+        label = "Toolbelt Female",
+        category = "style"
+    },
+    ["style_tracey"] = {
+        anim = "move_characters@tracey",
+        label = "Tracey",
+        category = "style"
+    },
+    ["style_veryslow"] = {
+        anim = "move_m@leaf_blower",
+        label = "Very Slow",
         category = "style"
     },
     ["face_standard"] = {
@@ -851,67 +1111,67 @@ Animations.List = {
     },
     ["style_chubby"] = {
         anim = "move_chubby",
-        label = "Style: Chubby Male",
+        label = "Chubby Male",
         category = "style"
     },
     ["style_chubbyf"] = {
         anim = "move_f@chubby@a",
-        label = "Style: Chubby Female",
+        label = "Chubby Female",
         category = "style"
     },
     ["style_trevor"] = {
         anim = "move_p_m_two",
-        label = "Style: Trevor",
+        label = "Trevor",
         category = "style"
     },
     ["style_tough"] = {
         anim = "move_f@tough_guy@",
-        label = "Style: Tough Female",
+        label = "Tough 2",
         category = "style"
     },
     ["style_scaredf"] = {
         anim = "move_f@scared",
-        label = "Style: Scared Female",
+        label = "Scared",
         category = "style"
     },
     ["style_sassyf"] = {
         anim = "move_f@sassy",
-        label = "Style: Sassy Female",
+        label = "Sassy 2",
         category = "style"
     },
     ["style_maneater"] = {
         anim = "move_f@maneater",
-        label = "Style: Maneater Female",
+        label = "Maneater",
         category = "style"
     },
     ["style_jog"] = {
         anim = "move_m@jog@",
-        label = "Style: Jog",
+        label = "Jog",
         category = "style"
     },
     ["style_janitor"] = {
         anim = "move_p_m_zero_janitor",
-        label = "Style: Janitor",
+        label = "Janitor",
         category = "style"
     },
     ["style_hurryf"] = {
         anim = "move_f@hurry@a",
-        label = "Style: Hurry Female",
+        label = "Hurry Female",
         category = "style"
     },
     ["style_hiking"] = {
         anim = "move_m@hiking",
-        label = "Style: Hiking",
+        label = "Hiking",
         category = "style"
     },
     ["style_gangster5"] = {
         anim = "move_m@gangster@ng",
-        label = "Style: Gangster 5",
+        label = "Gangster 3",
         category = "style"
     },
     ["style_arrogant"] = {
         anim = "move_f@arrogant@a",
-        label = "Style: Arrogant",
+        label = "Arrogant",
         category = "style"
     },
     ["danceglowstick"] = {
@@ -1704,7 +1964,7 @@ Animations.List = {
         prop = "prop_cs_police_torch_02",
         propPos = {0.0, -0.001, 0.0, 0.0, 0.0, 90.0},
         SecondpropBone = 60309,
-        Secondprop = "prop_cs_walkie_talkie",
+        Secondprop = "apx8000-6",
         SecondpropPos = {0.056, 0.047, 0.011, -43.82733, 164.6747, -7.5569}
     },
     ["skatehold"] = {
@@ -1793,6 +2053,28 @@ Animations.List = {
         animFlag = 1,
         bone = 36029,
         prop = "prop_lspd_shield_off",
+        propPos = {0.027805600627403, -0.03255339951872, -0.060990139100079, 90.982160207201, -21.248165304219,
+                   156.23947846669}
+    },
+    ["shieldaim2"] = {
+        category = "prop",
+        label = "77 Shield Aim",
+        animDict = "shieldaim@cartoon",
+        animName = "shieldaim_clip",
+        animFlag = 1,
+        bone = 36029,
+        prop = "prop_jsheriff_shield",
+        propPos = {0.027805600627403, -0.03255339951872, -0.060990139100079, 90.982160207201, -21.248165304219,
+                   156.23947846669}
+    },
+    ["shieldaim3"] = {
+        category = "prop",
+        label = "77 Shield Aim",
+        animDict = "shieldaim@cartoon",
+        animName = "shieldaim_clip",
+        animFlag = 1,
+        bone = 36029,
+        prop = "prop_ballistic_shield",
         propPos = {0.027805600627403, -0.03255339951872, -0.060990139100079, 90.982160207201, -21.248165304219,
                    156.23947846669}
     },
@@ -1955,7 +2237,7 @@ Animations.List = {
         propPos = {0.098910831737612, 0.033324336140049, -0.016786314964707, 168.36498169008, 2.9810680288095,
                    -179.95204094406},
         SecondpropBone = 36029,
-        Secondprop = "prop_cs_walkie_talkie",
+        Secondprop = "apx8000-6",
         SecondpropPos = {0.094187177673234, 0.043123484030153, 0.015793690996083, -119.28410788475, -21.670778059502,
                          -38.557657668088}
     },
@@ -1972,7 +2254,7 @@ Animations.List = {
     },
     ["guntaser"] = {
         category = "prop",
-        label = "Gun Down Taser",
+        label = "77 Gun Down Taser",
         animDict = "gundowntaser@cartoon",
         animName = "gundowntaser_clip",
         animFlag = 1,
@@ -2008,7 +2290,7 @@ Animations.List = {
         animName = "radiobelt_clip",
         animFlag = 1,
         bone = 60309,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0600, 0.0200, 0.0200, 88.6281503, -0.8235034, 140.0298588}
     },
     ["lookatid"] = {
@@ -4746,7 +5028,7 @@ Animations.List = {
         animName = "cellphone_text_read_base",
         animFlag = 1,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
     ["walkietalkie2"] = {
@@ -4756,7 +5038,7 @@ Animations.List = {
         animName = "radio_holding_gun",
         animFlag = 1,
         bone = 60309,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.075, 0.047, 0.011, -97.9442, 3.7058, -23.2367}
     },
     ["walkietalkie3left"] = {
@@ -4766,7 +5048,7 @@ Animations.List = {
         animName = "radio_left_clip",
         animFlag = 1,
         bone = 60309,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.075, 0.047, 0.011, -97.9442, 3.7058, -23.2367}
     },
     ["walkietalkie4"] = {
@@ -4776,7 +5058,7 @@ Animations.List = {
         animName = "holding_radio_clip",
         animFlag = 1,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.075, 0.023, -0.023, -90.0, 0.0, -59.9999}
     },
     ["walkietalkie5"] = {
@@ -4786,7 +5068,7 @@ Animations.List = {
         animName = "steve_phone_idle_a",
         animFlag = 1,
         bone = 18905,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.13, 0.05, 0.01, -113.0, 0.0, -60.0}
     },
     ["clean"] = {
@@ -14216,8 +14498,8 @@ Animations.List = {
     ["carry5"] = {
         label = "Drag injured",
         category = "synced",
-        animDict = "anim@arena@celeb@flat@paired@no_props@",
-        animName = "piggyback_c_player_a",
+        animDict = "combat@drag_ped@",
+        animName = "injured_drag_plyr",
         animFlag = 1,
         can_shared = true
     },
@@ -15277,18 +15559,18 @@ Animations.List = {
         animFlag = 1
     },
     ["pback"] = {
-        label = "Offer Piggy Back",
+        label = "Offer Piggy Back 2",
         category = "synced",
-        animDict = "anim@arena@celeb@flat@paired@no_props@",
-        animName = "piggyback_c_player_a",
+        animDict = "mx@piggypack_a",
+        animName = "mxclip_a",
         animFlag = 1,
         can_shared = true
     },
     ["pback2"] = {
-        label = "Be Piggy Backed",
+        label = "Be Piggy Backed 2",
         category = "synced",
-        animDict = "anim@arena@celeb@flat@paired@no_props@",
-        animName = "piggyback_c_player_b",
+        animDict = "mx@piggypack_b",
+        animName = "mxanim_b",
         animFlag = 1,
         can_shared = true
     },
@@ -15477,7 +15759,7 @@ Animations.List = {
         animName = "cellphone_text_read_base",
         animFlag = 1,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
     ["radio3"] = {
@@ -15487,7 +15769,7 @@ Animations.List = {
         animName = "cellphone_call_listen_base",
         animFlag = 1,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
     ["radio4"] = {
@@ -15497,7 +15779,7 @@ Animations.List = {
         animName = "idle_c",
         animFlag = 1,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
     ["radio5"] = {
@@ -15514,7 +15796,7 @@ Animations.List = {
         animName = "radio_left_clip",
         animFlag = 1,
         bone = 18905,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.13, 0.04, 0.03, -90.0, 0.0, -30.0}
     },
     ["radio7"] = {
@@ -15524,7 +15806,7 @@ Animations.List = {
         animName = "holding_radio_clip",
         animFlag = 1,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.05, -0.03, -0.02, -100.0, 0.0, 150.0}
     },
     ["reach"] = {
@@ -16220,6 +16502,104 @@ Animations.List = {
         animName = "anim@male@holding_weapon_kneel_clip",
         animFlag = 1
     },
+    ["swat6"] = {
+        label = "SWAT 6 (Collapsed Low Ready)",
+        category = "other",
+        animDict = "anim@male_tactical_collapsed_lowready",
+        animName = "collapsed_lowready_clip",
+        animFlag = 1
+    },
+    ["swat7"] = {
+        label = "SWAT 7 (High Ready Relaxed)",
+        category = "other",
+        animDict = "anim@male_tactical_highready_relaxed",
+        animName = "highready_relaxed_clip",
+        animFlag = 1
+    },
+    ["swat8"] = {
+        label = "SWAT 8 (Tactical Rifle)",
+        category = "other",
+        animDict = "anim@tactical_rifle_02",
+        animName = "t_rifle_02_clip",
+        animFlag = 1
+    },
+    ["swat9"] = {
+        label = "SWAT 9 (Tactical Photo)",
+        category = "other",
+        animDict = "anim@tactical_photo_01",
+        animName = "t_photo_01_clip",
+        animFlag = 1
+    },
+    ["swatidle5"] = {
+        label = "SWAT Idle 5 (Preaim)",
+        category = "other",
+        animDict = "anim@male@preaim_weapon",
+        animName = "preaim_weapon_clip",
+        animFlag = 1
+    },
+    ["swatl"] = {
+        label = "SWAT Left",
+        category = "other",
+        animDict = "anim@tactical_highlow_high_leftlean",
+        animName = "high_leftlean_clip",
+        animFlag = 1
+    },
+    ["swatl2"] = {
+        label = "SWAT Left 2",
+        category = "other",
+        animDict = "anim@tactical_highlow_high_leftlean",
+        animName = "high_leftlean_clip",
+        animFlag = 1
+    },
+    ["swatls"] = {
+        label = "SWAT Left Sit",
+        category = "other",
+        animDict = "anim@tactical_highlow_low_leftlean",
+        animName = "low_leftlean_clip",
+        animFlag = 1
+    },
+    ["swatc"] = {
+        label = "SWAT Aim Weapon",
+        category = "other",
+        animDict = "anim@male@aim_weapon",
+        animName = "aim_weapon_clip",
+        animFlag = 1
+    },
+    ["swatc2"] = {
+        label = "SWAT Kneel Aiming",
+        category = "other",
+        animDict = "anim@tactical_kneel_aiming",
+        animName = "kneel_aiming_clip",
+        animFlag = 1
+    },
+    ["swatsitrifle3"] = {
+        label = "SWAT Sit Rifle 3 (Tactical Kneel)",
+        category = "other",
+        animDict = "anim@male@tactical_kneel",
+        animName = "tactical_kneel_clip",
+        animFlag = 1
+    },
+    ["swatsitradio"] = {
+        label = "SWAT Sit Radio",
+        category = "other",
+        animDict = "anim@tactical_kneel_walkie",
+        animName = "kneel_walkie_clip",
+        animFlag = 1
+    },
+    ["swatok"] = {
+        label = "SWAT OK (Pose Weapon 3)",
+        category = "other",
+        animDict = "anim@male@pose_weapon_3",
+        animName = "pose_weapon_3_clip",
+        animFlag = 1
+    },
+    ["swatvest"] = {
+        label = "SWAT Vest",
+        category = "other",
+        animDict = "anim@male@holding_vest",
+        animName = "holding_vest_clip",
+        animFlag = 1
+    },
     ["swear"] = {
         label = "Weeding · Male",
         category = "other",
@@ -16461,21 +16841,6 @@ Animations.List = {
         prop = "prop_barbell_01",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
-    ["wheelchair"] = {
-        label = "Drag injured",
-        category = "synced",
-        animDict = "combat@drag_ped@",
-        animName = "injured_drag_plyr",
-        animFlag = 1,
-        can_shared = true
-    },
-    ["wheelchair2"] = {
-        label = "Be injured",
-        category = "party",
-        animDict = "amb@prop_human_seat_chair@female@proper@base",
-        animName = "base",
-        animFlag = 1
-    },
     ["whiskey2"] = {
         label = "Whiskey Bottle",
         category = "prop",
@@ -16540,7 +16905,7 @@ Animations.List = {
         animName = "cellphone_call_to_text",
         animFlag = 50,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
     ["radio_earpiece"] = {
@@ -16557,7 +16922,7 @@ Animations.List = {
         animName = "idle_c",
         animFlag = 50,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     },
     ["radio_left_hand"] = {
@@ -16567,7 +16932,7 @@ Animations.List = {
         animName = "radio_left_clip",
         animFlag = 50,
         bone = 18905,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.13, 0.04, 0.03, -90.0, 0.0, -30.0}
     },
     ["radio_close"] = {
@@ -16577,7 +16942,7 @@ Animations.List = {
         animName = "holding_radio_clip",
         animFlag = 50,
         bone = 28422,
-        prop = "prop_cs_walkie_talkie",
+        prop = "apx8000-6",
         propPos = {0.05, -0.03, -0.02, -100.0, 0.0, 150.0}
     },
     ["radio_chest"] = {
@@ -16586,795 +16951,622 @@ Animations.List = {
         animDict = "export@radio5",
         animName = "radio5",
         animFlag = 50
+    },
+
+    -- REF / NEW-DEVIL-ANIM
+    ["shieldb"] = {
+        label = "CE Shield B",
+        category = "prop",
+        animDict = "lapdshieldb@cartoon",
+        animName = "lapdshieldb_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "prop_ballistic_shield",
+        propPos = {0.010605703915189, -0.0043426383986745, -0.039842835951827, 111.84007457193, -28.920206405611, 123.45353456273}
+    },
+    ["shieldb2"] = {
+        label = "CE Shield B",
+        category = "prop",
+        animDict = "lapdshieldb@cartoon",
+        animName = "lapdshieldb_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "prop_lspd_shield_off",
+        propPos = {0.010605703915189, -0.0043426383986745, -0.039842835951827, 111.84007457193, -28.920206405611, 123.45353456273}
+    },
+    ["shieldb3"] = {
+        label = "CE Shield B",
+        category = "prop",
+        animDict = "lapdshieldb@cartoon",
+        animName = "lapdshieldb_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "prop_jsheriff_shield",
+        propPos = {0.010605703915189, -0.0043426383986745, -0.039842835951827, 111.84007457193, -28.920206405611, 123.45353456273}
+    },
+    ["doorclipbrd"] = {
+        label = "CE Door Clipboard",
+        category = "prop",
+        animDict = "doorclipbrd@cartoon",
+        animName = "doorclipbrd_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "prop_pencil_01",
+        propPos = {-0.093028132767586, 0.088969037966973, 0.28089267434765, -174.80394393012, 0.0, 25.084570997529},
+        SecondpropBone = 6286,
+        Secondprop = "p_cs_clipboard",
+        SecondpropPos = {0.20529524827384, 0.053306076790144, -0.0081586028086099, -88.745657497762, -9.0028172327628, -106.99470821994}
+    },
+    ["lholdsg"] = {
+        label = "CE Hold Shotgun L Hand",
+        category = "prop",
+        animDict = "lholdsg@cartoon",
+        animName = "lholdsg_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "w_sg_pumpshotgun",
+        propPos = {0.016746105196376, -0.12330737093526, 0.014937213275758, 72.092335013682, 8.5132258666381, 79.244720116098}
+    },
+    ["lholdsglspd"] = {
+        label = "Hold LSPD Beanbag Shotgun",
+        category = "prop",
+        animDict = "lholdsg@cartoon",
+        animName = "lholdsg_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "w_pd_beanbag",
+        propPos = {0.016746105196376, -0.12330737093526, 0.014937213275758, 72.092335013682, 8.5132258666381, 79.244720116098}
+    },
+    ["lholdsglssd"] = {
+        label = "Hold LSSD Beanbag Shotgun",
+        category = "prop",
+        animDict = "lholdsg@cartoon",
+        animName = "lholdsg_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "w_sd_beanbag",
+        propPos = {0.016746105196376, -0.12330737093526, 0.014937213275758, 72.092335013682, 8.5132258666381, 79.244720116098}
+    },
+    ["lholdsgsahp"] = {
+        label = "Hold SAHP Beanbag Shotgun",
+        category = "prop",
+        animDict = "lholdsg@cartoon",
+        animName = "lholdsg_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "w_hp_beanbag",
+        propPos = {0.016746105196376, -0.12330737093526, 0.014937213275758, 72.092335013682, 8.5132258666381, 79.244720116098}
+    },
+    ["fuckyouholster"] = {
+        label = "CE Holster Taunt",
+        category = "other",
+        animDict = "fuckyouholster@cartoon",
+        animName = "fuckyouholster_clip",
+        animFlag = 51
+    },
+    ["wholdweapona"] = {
+        label = "CE Weapon Hold A",
+        category = "other",
+        animDict = "wholdweapona@cartoon",
+        animName = "wholdweapona_clip",
+        animFlag = 51
+    },
+    ["clenchfbelt"] = {
+        label = "CE Belt Clench Fist",
+        category = "other",
+        animDict = "clenchfbelt@cartoon",
+        animName = "clenchfbelt_clip",
+        animFlag = 51
+    },
+    ["formalposeclow"] = {
+        label = "CE Formal Pose C Low",
+        category = "other",
+        animDict = "formalposeclow@cartoon",
+        animName = "formalposeclow_clip",
+        animFlag = 51
+    },
+    ["formalposec"] = {
+        label = "CE Formal Pose C",
+        category = "other",
+        animDict = "formalposec@cartoon",
+        animName = "formalposec_clip",
+        animFlag = 51
+    },
+    ["formalposebh"] = {
+        label = "CE Formal Pose B High",
+        category = "other",
+        animDict = "formalposebh@cartoon",
+        animName = "formalposebh_clip",
+        animFlag = 51
+    },
+    ["formalposebal"] = {
+        label = "CE Formal Pose B Alt",
+        category = "other",
+        animDict = "formalposebal@cartoon",
+        animName = "formalposebal_clip",
+        animFlag = 51
+    },
+    ["holsterbelta"] = {
+        label = "CE Holster Belt A",
+        category = "other",
+        animDict = "holsterbelta@cartoon",
+        animName = "holsterbelta_clip",
+        animFlag = 51
+    },
+    ["vehtrafficc"] = {
+        label = "CE Vehicle Traffic",
+        category = "other",
+        animDict = "vehtrafficc@cartoon",
+        animName = "vehtrafficc_clip",
+        animFlag = 1
+    },
+    ["ceclipboard"] = {
+        label = "CE Clipboard",
+        category = "prop",
+        animDict = "clipboard@cartoon",
+        animName = "clipboard_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "p_cs_clipboard",
+        propPos = {0.13524608440798, 0.0085414392542884, 0.03848810645006, -102.9315136172, -9.6983151103175, -0.69277493769757},
+        SecondpropBone = 6286,
+        Secondprop = "prop_pencil_01",
+        SecondpropPos = {0.082928788343793, 0.050464208571481, 0.0020748404558257, -141.74078727319, -53.322357680409, -32.311792760138}
+    },
+    ["handheldear"] = {
+        label = "CE Handheld Ear",
+        category = "other",
+        animDict = "handheldear@cartoon",
+        animName = "handheldear_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "apx8000-6",
+        propPos = {0.094187177673234, 0.043123484030153, 0.015793690996083, -119.28410788475, -21.670778059502, -38.557657668088}
+    },
+    ["radiohwater"] = {
+        label = "Radio & Water",
+        category = "prop",
+        animDict = "radiohwater@cartoon",
+        animName = "radiohwater_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "apx8000-6",
+        propPos = {0.061455869055976, 0.026187590184664, 0.02867533953432, -120.82698637688, -27.674148239833, -24.596386761347},
+        SecondpropBone = 28422,
+        Secondprop = "prop_ld_flow_bottle",
+        SecondpropPos = {0.062568798145975, 0.011754913669535, -0.04023293304496, -74.492610301855, 0.90393377991601, -3.2542093308122}
+    },
+    ["radiohva"] = {
+        label = "Radio Hold VA",
+        category = "prop",
+        animDict = "radiohva@cartoon",
+        animName = "radiohva_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "apx8000-6",
+        propPos = {0.061455869055976, 0.026187590184664, 0.02867533953432, -120.82698637688, -27.674148239833, -24.596386761347}
+    },
+    ["radiohlv"] = {
+        label = "Radio Hold LV",
+        category = "prop",
+        animDict = "radiohlv@cartoon",
+        animName = "radiohlv_clip",
+        animFlag = 51,
+        bone = 6286,
+        prop = "apx8000-6",
+        propPos = {0.053977077374952, 0.011207583041359, -0.019194544029971, 69.757563828861, 14.991940561838, 149.88620911039}
+    },
+    ["holdradiochesta"] = {
+        label = "Radio Hold Chest",
+        category = "prop",
+        animDict = "holdradiochesta@cartoon",
+        animName = "holdradiochesta_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "apx8000-6",
+        propPos = {0.055252290752151, 0.0035599873039699, 0.033770607046526, -118.21471980967, -16.125248667561, -11.30171802938}
+    },
+    ["adjustradiov"] = {
+        label = "Radio Adjust",
+        category = "prop",
+        animDict = "adjustradiov@cartoon",
+        animName = "adjustradiov_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "apx8000-6",
+        propPos = {0.12061126063759, 0.039677297336876, 0.0098829079596108, -109.20670907039, -7.4872587206005, -62.920140399952}
+    },
+    ["adjradiolow"] = {
+        label = "Radio Adjust Low",
+        category = "prop",
+        animDict = "adjradiolow@cartoon",
+        animName = "adjradiolow_clip",
+        animFlag = 51,
+        bone = 36029,
+        prop = "apx8000-6",
+        propPos = {0.059128325841243, 0.014922294682271, 0.046091183496511, -120.5466980899, -42.474715343135, -9.7188505980427}
+    },
+    ["waimp"] = {
+        label = "Weapon Aim Point V",
+        category = "other",
+        animDict = "waimp@cartoon",
+        animName = "waimp_clip",
+        animFlag = 51
+    },
+    ["searchvehv"] = {
+        label = "Search Vehicle V",
+        category = "other",
+        animDict = "searchvehv@cartoon",
+        animName = "searchvehv_clip",
+        animFlag = 51
+    },
+    ["altvesta"] = {
+        label = "Vest Alt A",
+        category = "other",
+        animDict = "altvesta@cartoon",
+        animName = "altvesta_clip",
+        animFlag = 51
+    },
+    ["highbothvesta"] = {
+        label = "Vest High Both A",
+        category = "other",
+        animDict = "highbothvesta@cartoon",
+        animName = "highbothvesta_clip",
+        animFlag = 51
+    },
+    ["highholdr"] = {
+        label = "Vest High Hold R",
+        category = "other",
+        animDict = "highholdr@cartoon",
+        animName = "highholdr_clip",
+        animFlag = 51
+    },
+    ["highvholdr"] = {
+        label = "Vest High V Hold R",
+        category = "other",
+        animDict = "highvholdr@cartoon",
+        animName = "highvholdr_clip",
+        animFlag = 51
+    },
+    ["holdvesrrl"] = {
+        label = "Vest Hold RRL",
+        category = "other",
+        animDict = "holdvesrrl@cartoon",
+        animName = "holdvesrrl_clip",
+        animFlag = 51
+    },
+    ["holdvestllow"] = {
+        label = "Vest Hold L Low",
+        category = "other",
+        animDict = "holdvestllow@cartoon",
+        animName = "holdvestllow_clip",
+        animFlag = 51
+    },
+    ["vestholdcenlb"] = {
+        label = "Vest Hold Center LB",
+        category = "other",
+        animDict = "vestholdcenlb@cartoon",
+        animName = "vestholdcenlb_clip",
+        animFlag = 51
+    },
+    ["vestholdceno"] = {
+        label = "Vest Hold Center O",
+        category = "other",
+        animDict = "vestholdceno@cartoon",
+        animName = "vestholdceno_clip",
+        animFlag = 51
+    },
+    ["vestholdcl"] = {
+        label = "Vest Hold CL",
+        category = "other",
+        animDict = "vestholdcl@cartoon",
+        animName = "vestholdcl_clip",
+        animFlag = 51
+    },
+    ["sticklervesta"] = {
+        label = "Stickler Vest A",
+        category = "other",
+        animDict = "sticklervesta@cartoon",
+        animName = "sticklervesta_clip",
+        animFlag = 51
+    },
+    ["sticklervestba"] = {
+        label = "Stickler Vest BA",
+        category = "other",
+        animDict = "sticklervestba@cartoon",
+        animName = "sticklervestba_clip",
+        animFlag = 51
+    },
+    ["sticklervestleft"] = {
+        label = "Stickler Vest Left",
+        category = "other",
+        animDict = "sticklervestleft@cartoon",
+        animName = "sticklervestleft_clip",
+        animFlag = 51
+    },
+    ["fistvicstatic"] = {
+        label = "Vic Fist Static",
+        category = "other",
+        animDict = "fistvicstatic@cartoon",
+        animName = "fistvicstatic_clip",
+        animFlag = 51
+    },
+    ["vehpointlow"] = {
+        label = "Vehicle Point Low",
+        category = "other",
+        animDict = "vehpointlow@cartoon",
+        animName = "vehpointlow_clip",
+        animFlag = 1
+    },
+    ["viccm"] = {
+        label = "Vic CM",
+        category = "other",
+        animDict = "viccm@cartoon",
+        animName = "viccm_clip",
+        animFlag = 1
+    },
+    ["viceblown"] = {
+        label = "Vic E Blown",
+        category = "other",
+        animDict = "viceblown@cartoon",
+        animName = "viceblown_clip",
+        animFlag = 1
+    },
+    ["vicfa"] = {
+        label = "Vic F A",
+        category = "other",
+        animDict = "vicfa@cartoon",
+        animName = "vicfa_clip",
+        animFlag = 1
+    },
+    ["vicfb"] = {
+        label = "Vic F B",
+        category = "other",
+        animDict = "vicfb@cartoon",
+        animName = "vicfb_clip",
+        animFlag = 1
+    },
+    ["vicguna"] = {
+        label = "Vic Gun A",
+        category = "other",
+        animDict = "vicguna@cartoon",
+        animName = "vicguna_clip",
+        animFlag = 1
+    },
+    ["vichout"] = {
+        label = "Vic Hands Out",
+        category = "other",
+        animDict = "vichout@cartoon",
+        animName = "vichout_clip",
+        animFlag = 1
+    },
+    ["vicpassangerarm"] = {
+        label = "Vic Passenger Arm",
+        category = "other",
+        animDict = "vicpassangerarm@cartoon",
+        animName = "vicpassangerarm_clip",
+        animFlag = 1
+    },
+    ["vicpassangerarmoa"] = {
+        label = "Vic Passenger Arm Out H",
+        category = "other",
+        animDict = "vicpassangerarmoa@cartoon",
+        animName = "vicpassangerarmoa_clip",
+        animFlag = 1
+    },
+    ["vicpassangerarmrest"] = {
+        label = "Vic Passenger Arm Rest",
+        category = "other",
+        animDict = "vicpassangerarmrest@cartoon",
+        animName = "vicpassangerarmrest_clip",
+        animFlag = 51
+    },
+    ["vicpassangergrabr"] = {
+        label = "Vic Passenger Roof Grab",
+        category = "other",
+        animDict = "vicpassangergrabr@cartoon",
+        animName = "vicpassangergrabr_clip",
+        animFlag = 1
+    },
+    ["vicpassangerpoint"] = {
+        label = "Vic Passenger Point",
+        category = "other",
+        animDict = "vicpassangerpoint@cartoon",
+        animName = "vicpassangerpoint_clip",
+        animFlag = 1
+    },
+    ["vicpassangerpointarm"] = {
+        label = "Vic Passenger Point Arm",
+        category = "other",
+        animDict = "vicpassangerpointarm@cartoon",
+        animName = "vicpassangerpointarm_clip",
+        animFlag = 1
+    },
+    ["vicpassangerspotlighta"] = {
+        label = "Vic Passenger Spotlight A",
+        category = "other",
+        animDict = "vicpassangerspotlighta@cartoon",
+        animName = "vicpassangerspotlighta_clip",
+        animFlag = 51
+    },
+    ["vicpoint"] = {
+        label = "Vic Point",
+        category = "other",
+        animDict = "vicpoint@cartoon",
+        animName = "vicpoint_clip",
+        animFlag = 1
+    },
+    ["vicpointv"] = {
+        label = "Vic Point V",
+        category = "other",
+        animDict = "vicpointv@cartoon",
+        animName = "vicpointv_clip",
+        animFlag = 1
+    },
+    ["vicposea"] = {
+        label = "Vic Pose A",
+        category = "other",
+        animDict = "vicposea@cartoon",
+        animName = "vicposea_clip",
+        animFlag = 51
+    },
+    ["vicposeb"] = {
+        label = "Vic Pose B",
+        category = "other",
+        animDict = "vicposeb@cartoon",
+        animName = "vicposeb_clip",
+        animFlag = 51
+    },
+    ["vicpv"] = {
+        label = "Vic PV",
+        category = "other",
+        animDict = "vicpv@cartoon",
+        animName = "vicpv_clip",
+        animFlag = 1
+    },
+    ["vicspotlightdr"] = {
+        label = "Vic Spotlight Driver",
+        category = "other",
+        animDict = "vicspotlightdr@cartoon",
+        animName = "vicspotlightdr_clip",
+        animFlag = 1
+    },
+    ["vicvha"] = {
+        label = "Vic VH A",
+        category = "other",
+        animDict = "vicvha@cartoon",
+        animName = "vicvha_clip",
+        animFlag = 1
+    },
+    ["chainsawidle"] = {
+        label = "Chainsaw Idle",
+        category = "prop",
+        animDict = "denz@chainsaw",
+        animName = "idle",
+        animFlag = 1,
+        bone = 28422,
+        prop = "prop_tool_chainsaw",
+        propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
+    },
+    ["chainsawidle2"] = {
+        label = "Chainsaw Idle 2",
+        category = "prop",
+        animDict = "denz@chainsaw",
+        animName = "idle2",
+        animFlag = 1,
+        bone = 28422,
+        prop = "prop_tool_chainsaw",
+        propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
+    },
+    ["chainsawsawing"] = {
+        label = "Chainsaw Sawing",
+        category = "prop",
+        animDict = "denz@chainsaw",
+        animName = "sawing",
+        animFlag = 1,
+        bone = 28422,
+        prop = "prop_tool_chainsaw",
+        propPos = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}
     }
 }
 
 Animations.SyncedSettings = {
-    ["handshake"] = {
-        "mp_ped_interaction",
-        "handshake_guy_a",
-        "Handshake",
-        "handshake",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 3000,
-            SyncOffsetFront = 0.9
-        }
-    },
-    ["handshake2"] = {
-        "mp_ped_interaction",
-        "handshake_guy_b",
-        "Handshake 2",
-        "handshake2",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 3000
-        }
-    },
-    ["hug"] = {
-        "mp_ped_interaction",
-        "kisses_guy_a",
-        "Hug",
-        "hug",
-        AnimationOptions = {
-            EmoteDuration = 5000,
-            SyncOffsetFront = 1.05
-        }
-    },
-    ["hug2"] = {
-        "mp_ped_interaction",
-        "kisses_guy_b",
-        "Hug 2",
-        "hug2",
-        AnimationOptions = {
-            EmoteDuration = 5000,
-            SyncOffsetFront = 1.18
-        }
-    },
-    ["hugromantic1"] = {
-        "misscarsteal2chad_goodbye",
-        "chad_armsaround_chad",
-        "Hug Romantic 1",
-        "hugromantic1",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.52
-        }
-    },
-    ["hugromantic2"] = {
-        "misscarsteal2chad_goodbye",
-        "chad_armsaround_girl",
-        "Hug Romantic 2",
-        "hugromantic2",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.52
-        }
-    },
-    ["bro"] = {
-        "mp_ped_interaction",
-        "hugs_guy_a",
-        "Bro",
-        "bro",
-        AnimationOptions = {
-            SyncOffsetFront = 1.14
-        }
-    },
-    ["bro2"] = {
-        "mp_ped_interaction",
-        "hugs_guy_b",
-        "Bro 2",
-        "bro2",
-        AnimationOptions = {
-            SyncOffsetFront = 1.14
-        }
-    },
-    ["give"] = {
-        "mp_common",
-        "givetake1_a",
-        "Give",
-        "give",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 2000
-        }
-    },
-    ["give2"] = {
-        "mp_common",
-        "givetake1_b",
-        "Give 2",
-        "give2",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 2000
-        }
-    },
-    ["stickup"] = {
-        "random@countryside_gang_fight",
-        "biker_02_stickup_loop",
-        "Stick Up",
-        "stickup",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["stickupscared"] = {
-        "missminuteman_1ig_2",
-        "handsup_base",
-        "Stickup Scared",
-        "stickupscared",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["punch"] = {"melee@unarmed@streamed_variations", "plyr_takedown_rear_lefthook", "Punch", "punch"},
-    ["punched"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_cross_r", "Punched", "punched"},
-    ["headbutt"] = {"melee@unarmed@streamed_variations", "plyr_takedown_front_headbutt", "Headbutt", "headbutt"},
-    ["headbutted"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_headbutt", "Headbutted", "headbutted"},
-    ["slap2"] = {
-        "melee@unarmed@streamed_variations",
-        "plyr_takedown_front_backslap",
-        "Slap 2",
-        "slap2",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 2000
-        }
-    },
-    ["slap"] = {
-        "melee@unarmed@streamed_variations",
-        "plyr_takedown_front_slap",
-        "Slap",
-        "slap",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 2000
-        }
-    },
-    ["slapped"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_slap", "Slapped", "slapped"},
-    ["slapped2"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_backslap", "Slapped 2", "slapped2"},
-    ["carry"] = {
-        "missfinale_c2mcs_1",
-        "fin_c2_mcs_1_camman",
-        "Carry",
-        "carry",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["becarried"] = {
-        "nm",
-        "firemans_carry",
-        "Be carried",
-        "becarried",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carry2"] = {
-        "anim@heists@box_carry@",
-        "idle",
-        "Carry 2",
-        "carry2",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["becarried2"] = {
-        "amb@code_human_in_car_idles@generic@ps@base",
-        "base",
-        "Be carried 2",
-        "becarried2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carrymecute"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_mal_002",
-        "Carry Me Cute",
-        "carrymecute",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["carrymecute2"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_fem_002",
-        "Carry Me Cute 2",
-        "carrymecute2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carrymecute3"] = {
-        "couplepose1cmg@animation",
-        "couplepose1cmg_clip",
-        "Carry Me Cute 3",
-        "carrymecute3",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carrymecute4"] = {
-        "couplepose2cmg@animation",
-        "couplepose2cmg_clip",
-        "Carry Me Cute 4",
-        "carrymecute4",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["bestfriends1"] = {
-        "mrwitt@casual_composure_female01",
-        "mrwitt",
-        "Best Friends 1",
-        "bestfriends1",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["bestfriends2"] = {
-        "mrwitt@casual_composure_female02",
-        "mrwitt",
-        "Best Friends 2",
-        "bestfriends2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["bffpose"] = {
-        "anim@male_couple_03_b",
-        "m_couple_03_b_clip",
-        "BFF Pose",
-        "bffpose",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["bffpose2"] = {
-        "anim@female_couple_03_b",
-        "f_couple_03_b_clip",
-        "BFF Pose 2",
-        "bffpose2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["sitwithme"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_mal_003",
-        "Sit With Me",
-        "sitwithme",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["sitwithmeplease?"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_fem_003",
-        "Sit With Me Please?",
-        "sitwithmeplease?",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["hugpose"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_mal_001",
-        "Hug Pose",
-        "hugpose",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["hugposewithme?"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_fem_001",
-        "Hug Pose With Me?",
-        "hugposewithme?",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["hugposetippytoes"] = {
-        "littlespoon@friendship007",
-        "friendship007",
-        "Hug Pose Tippy Toes",
-        "hugposetippytoes",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["hugposetippytoes2"] = {
-        "littlespoon@friendship008",
-        "friendship008",
-        "Hug Pose Tippy Toes 2",
-        "hugposetippytoes2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["cutepicpose"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_mal_004",
-        "Cute Pic Pose",
-        "cutepicpose",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["cutepicpose2"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_fem_004",
-        "Cute Pic Pose 2",
-        "cutepicpose2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["couplehearthands"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_mal_005",
-        "Couple Heart Hands",
-        "couplehearthands",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["couplehearthands2"] = {
-        "amnilka@photopose@couple@couplefirst",
-        "amnilka_couple_fem_005",
-        "Couple Heart Hands 2",
-        "couplehearthands2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["coupleweddingpose1a"] = {
-        "EnchantedBrwny@wedding1a",
-        "wedding1a",
-        "Couple Wedding Pose 1A",
-        "coupleweddingpose1a",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["coupleweddingpose1b"] = {
-        "EnchantedBrwny@wedding1b",
-        "wedding1b",
-        "Couple Wedding Pose 1B",
-        "coupleweddingpose1b",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["coupleweddingpose2a"] = {
-        "EnchantedBrwny@wedding2b",
-        "wedding2b",
-        "Couple Wedding Pose 2A",
-        "coupleweddingpose2a",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["coupleweddingpose2b"] = {
-        "EnchantedBrwny@wedding2a",
-        "wedding2a",
-        "Couple Wedding Pose 2B",
-        "coupleweddingpose2b",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["liftme"] = {
-        "couplepose1pack1anim2@animation",
-        "couplepose1pack1anim2_clip",
-        "Lift Me",
-        "liftme",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["liftme2"] = {
-        "couplepose1pack1anim1@animation",
-        "couplepose1pack1anim1_clip",
-        "Lift Me 2",
-        "liftme2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["liftme3"] = {
-        "couplepose2pack1anim2@animation",
-        "couplepose2pack1anim2_clip",
-        "Lift Me 3",
-        "liftme3",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["liftme4"] = {
-        "couplepose2pack1anim1@animation",
-        "couplepose2pack1anim1_clip",
-        "Lift Me 4",
-        "liftme4",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["liftme5"] = {
-        "couplepose3pack1anim2@animation",
-        "couplepose3pack1anim2_clip",
-        "Lift Me 5",
-        "liftme5",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["liftme6"] = {
-        "couplepose3pack1anim1@animation",
-        "couplepose3pack1anim1_clip",
-        "Lift Me 6",
-        "liftme6",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carrysmalldog"] = {
-        "anim@heists@box_carry@",
-        "idle",
-        "Carry Small Dog",
-        "carrysmalldog",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["smalldogcarried"] = {
-        "misssnowie@little_doggy_lying_down",
-        "base",
-        "Small Dog Carried",
-        "smalldogcarried",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carrysmalldog2"] = {
-        "hooman@hugging_little_doggy",
-        "base",
-        "Carry Small Dog 2",
-        "carrysmalldog2",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["smalldogcarried2"] = {
-        "little_doggy@hugging_hooman",
-        "base",
-        "Small Dog Carried 2",
-        "smalldogcarried2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["carrybigdog"] = {
-        "anim@heists@box_carry@",
-        "idle",
-        "Carry Big Dog",
-        "carrybigdog",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["bigdogcarried"] = {
-        "creatures@rottweiler@amb@sleep_in_kennel@",
-        "sleep_in_kennel",
-        "Big Dog Carried",
-        "bigdogcarried",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["offerpiggyback"] = {
-        "mx@piggypack_a",
-        "mxclip_a",
-        "Offer Piggy Back",
-        "offerpiggyback",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["bepiggybacked"] = {
-        "mx@piggypack_b",
-        "mxanim_b",
-        "Be Piggy Backed",
-        "bepiggybacked",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["givecpr"] = {
-        "mini@cpr@char_a@cpr_str",
-        "cpr_pumpchest",
-        "Give CPR",
-        "givecpr",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["getcpr"] = {
-        "mini@cpr@char_b@cpr_str",
-        "cpr_pumpchest",
-        "Get CPR",
-        "getcpr",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["givecpr2"] = {
-        "missheistfbi3b_ig8_2",
-        "cpr_loop_paramedic",
-        "Give CPR 2",
-        "givecpr2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["getcpr2"] = {
-        "missheistfbi3b_ig8_2",
-        "cpr_loop_victim",
-        "Get CPR 2",
-        "getcpr2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["takehostage"] = {
-        "anim@gangops@hostage@",
-        "perp_idle",
-        "Take hostage",
-        "takehostage",
-        AnimationOptions = {
-            EmoteMoving = true
-        }
-    },
-    ["behostage"] = {
-        "anim@gangops@hostage@",
-        "victim_idle",
-        "Be hostage",
-        "behostage",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["search"] = {
-        "custom@police",
-        "police",
-        "Search",
-        "search",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 9700
-        }
-    },
-    ["besearched"] = {
-        "missfam5_yoga",
-        "a2_pose",
-        "Be searched",
-        "besearched",
-        AnimationOptions = {
-            EmoteMoving = true,
-            EmoteDuration = 9700
-        }
-    },
-    ["followa(front)"] = {
-        "dollie_mods@follow_me_001",
-        "follow_me_001",
-        "Follow A (Front)",
-        "followa(front)",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["followb(back)"] = {
-        "dollie_mods@follow_me_002",
-        "follow_me_002",
-        "Follow B (Back)",
-        "followb(back)",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["kiss"] = {
-        "hs3_ext-20",
-        "cs_lestercrest_3_dual-20",
-        "Kiss",
-        "kiss",
-        AnimationOptions = {
-            EmoteDuration = 10000,
-            SyncOffsetFront = 0.08
-        }
-    },
-    ["kiss2"] = {
-        "hs3_ext-20",
-        "csb_georginacheng_dual-20",
-        "Kiss 2",
-        "kiss2",
-        AnimationOptions = {
-            EmoteDuration = 10000,
-            SyncOffsetFront = 0.08
-        }
-    },
-    ["kiss3"] = {
-        "hs3_ext-19",
-        "cs_lestercrest_3_dual-19",
-        "Kiss 3",
-        "kiss3",
-        AnimationOptions = {
-            EmoteDuration = 10000,
-            SyncOffsetFront = 0.08
-        }
-    },
-    ["kiss4"] = {
-        "hs3_ext-19",
-        "csb_georginacheng_dual-19",
-        "Kiss 4",
-        "kiss4",
-        AnimationOptions = {
-            EmoteDuration = 10000,
-            SyncOffsetFront = 0.08
-        }
-    },
-    ["kisscute-neck(male)"] = {
-        "genesismods_kissme@kissmale8",
-        "kissmale8",
-        "Kiss Cute - Neck (Male)",
-        "kisscute-neck(male)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.05
-        }
-    },
-    ["kisscute-neck(female)"] = {
-        "genesismods_kissme@kissfemale8",
-        "kissfemale8",
-        "Kiss Cute - Neck (Female)",
-        "kisscute-neck(female)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.05
-        }
-    },
-    ["kisscutecheek(male)"] = {
-        "genesismods_kissme@kissmale9",
-        "kissmale9",
-        "Kiss Cute Cheek (Male)",
-        "kisscutecheek(male)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.05
-        }
-    },
-    ["kisscutecheek(female)"] = {
-        "genesismods_kissme@kissfemale9",
-        "kissfemale9",
-        "Kiss Cute Cheek (Female)",
-        "kisscutecheek(female)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.05
-        }
-    },
-    ["kissforehead(male)"] = {
-        "genesismods_kissme@kissmale10",
-        "kissmale10",
-        "Kiss Forehead (Male)",
-        "kissforehead(male)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.05
-        }
-    },
-    ["kisscutelips(female)"] = {
-        "chocoholic@couple13",
-        "couple13_clip",
-        "Kiss Cute Lips (Female)",
-        "kisscutelips(female)",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["kisscutelips(male)"] = {
-        "chocoholic@couple14",
-        "couple14_clip",
-        "Kiss Cute Lips (Male)",
-        "kisscutelips(male)",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["kissforehead(female)"] = {
-        "genesismods_kissme@kissfemale10",
-        "kissfemale10",
-        "Kiss Forehead (Female)",
-        "kissforehead(female)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.05
-        }
-    },
-    ["coupledrinking(wineglasses)"] = {
-        "anim@scripted@robbery@tun_prep_uni_ig1_couple@",
-        "action_var_01_bank_manager",
-        "Couple Drinking (Wine Glasses)",
-        "coupledrinking(wineglasses)",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["coupledrinkingf(wineglasses)"] = {
-        "anim@scripted@robbery@tun_prep_uni_ig1_couple@",
-        "action_var_01_female",
-        "Couple Drinking F (Wine Glasses)",
-        "coupledrinkingf(wineglasses)",
-        AnimationOptions = {
-            EmoteMoving = false,
-            SyncOffsetFront = 0.11
-        }
-    },
-    ["holdme"] = {
-        "mx_couple5_1_a",
-        "mx_couple5_1_a_clip",
-        "Hold Me",
-        "holdme",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["beheld"] = {
-        "mx_couple5_1_b",
-        "mx_couple5_1_b_clip",
-        "Be Held",
-        "beheld",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["holdme2"] = {
-        "mx_couple5_2_a",
-        "mx_couple5_2_a_clip",
-        "Hold Me 2",
-        "holdme2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["beheld2"] = {
-        "mx_couple5_2_b",
-        "mx_couple5_2_b_clip",
-        "Be Held 2",
-        "beheld2",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["holdme3"] = {
-        "mx_couple5_3_a",
-        "mx_couple5_3_a_clip",
-        "Hold Me 3",
-        "holdme3",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    },
-    ["beheld3"] = {
-        "mx_couple5_3_b",
-        "mx_couple5_3_b_clip",
-        "Be Held 3",
-        "beheld3",
-        AnimationOptions = {
-            EmoteMoving = false
-        }
-    }
+    ["handshake"] = {"mp_ped_interaction", "handshake_guy_a", "Handshake", "handshake2", AnimationOptions = { EmoteMoving = true, EmoteDuration = 3000, SyncOffsetFront = 0.9 }},
+    ["handshake2"] = {"mp_ped_interaction", "handshake_guy_b", "Handshake 2", "handshake", AnimationOptions = { EmoteMoving = true, EmoteDuration = 3000 }},
+    ["hug"] = {"mp_ped_interaction", "kisses_guy_a", "Hug", "hug2", AnimationOptions = { EmoteMoving = false, EmoteDuration = 5000, SyncOffsetFront = 1.05 }},
+    ["hug2"] = {"mp_ped_interaction", "kisses_guy_b", "Hug 2", "hug", AnimationOptions = { EmoteMoving = false, EmoteDuration = 5000, SyncOffsetFront = 1.13 }},
+    ["bro"] = {"mp_ped_interaction", "hugs_guy_a", "Bro", "bro2", AnimationOptions = { SyncOffsetFront = 1.14 }},
+    ["bro2"] = {"mp_ped_interaction", "hugs_guy_b", "Bro 2", "bro", AnimationOptions = { SyncOffsetFront = 1.14 }},
+    ["give"] = {"mp_common", "givetake1_a", "Give", "give2", AnimationOptions = { EmoteMoving = true, EmoteDuration = 2000 }},
+    ["give2"] = {"mp_common", "givetake1_b", "Give 2", "give", AnimationOptions = { EmoteMoving = true, EmoteDuration = 2000 }},
+    ["stickup"] = {"random@countryside_gang_fight", "biker_02_stickup_loop", "Stick Up", "stickupscared", AnimationOptions = { EmoteLoop = true, EmoteMoving = true }},
+    ["stickupscared"] = {"missminuteman_1ig_2", "handsup_base", "Stickup Scared", "stickup", AnimationOptions = { EmoteLoop = true, EmoteMoving = true }},
+    ["punch"] = {"melee@unarmed@streamed_variations", "plyr_takedown_rear_lefthook", "Punch", "punched"},
+    ["punched"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_cross_r", "Punched", "punch"},
+    ["headbutt"] = {"melee@unarmed@streamed_variations", "plyr_takedown_front_headbutt", "Headbutt", "headbutted"},
+    ["headbutted"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_headbutt", "Headbutted", "headbutt"},
+    ["slap"] = {"melee@unarmed@streamed_variations", "plyr_takedown_front_slap", "Slap", "slapped", AnimationOptions = { EmoteLoop = true, EmoteMoving = true, EmoteDuration = 2000 }},
+    ["slapped"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_slap", "Slapped", "slap"},
+    ["slap2"] = {"melee@unarmed@streamed_variations", "plyr_takedown_front_backslap", "Slap 2", "slapped2", AnimationOptions = { EmoteLoop = true, EmoteMoving = true, EmoteDuration = 2000 }},
+    ["slapped2"] = {"melee@unarmed@streamed_variations", "victim_takedown_front_backslap", "Slapped 2", "slap2"},
+    ["carry"] = {"missfinale_c2mcs_1", "fin_c2_mcs_1_camman", "Carry", "becarried", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["becarried"] = {"nm", "firemans_carry", "Be carried", "carry", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 40269, xPos = -0.14, yPos = 0.15, zPos = 0.14, xRot = 0.0, yRot = -59.0, zRot = -4.5 }},
+    ["carry2"] = {"anim@heists@box_carry@", "idle", "Carry 2", "becarried2", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["becarried2"] = {"amb@code_human_in_car_idles@generic@ps@base", "base", "Be carried 2", "carry2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 28252, xPos = 0.35, yPos = 0.15, zPos = -0.15, xRot = -42.5, yRot = -22.5, zRot = 22.5 }},
+    ["offerpiggyback"] = {"anim@arena@celeb@flat@paired@no_props@", "piggyback_c_player_a", "Offer Piggy Back", "bepiggybacked", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["bepiggybacked"] = {"anim@arena@celeb@flat@paired@no_props@", "piggyback_c_player_b", "Be Piggy Backed", "offerpiggyback", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0, yPos = -0.07, zPos = 0.4, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["givecpr"] = {"mini@cpr@char_a@cpr_str", "cpr_pumpchest", "Give CPR", "getcpr", AnimationOptions = { EmoteLoop = true, StartDelay = 250 }},
+    ["getcpr"] = {"mini@cpr@char_b@cpr_str", "cpr_pumpchest", "Get CPR", "givecpr", AnimationOptions = { EmoteLoop = true, Attachto = true, xPos = 0.35, yPos = 0.8, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 270.0 }},
+    ["givecpr2"] = {"missheistfbi3b_ig8_2", "cpr_loop_paramedic", "Give CPR 2", "getcpr2", AnimationOptions = { EmoteLoop = true, StartDelay = 250 }},
+    ["getcpr2"] = {"missheistfbi3b_ig8_2", "cpr_loop_victim", "Get CPR 2", "givecpr2", AnimationOptions = { EmoteLoop = true, Attachto = true, xPos = 0.35, yPos = 0.65, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 270.0 }},
+    ["takehostage"] = {"anim@gangops@hostage@", "perp_idle", "Take hostage", "behostage", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["behostage"] = {"anim@gangops@hostage@", "victim_idle", "Be hostage", "takehostage", AnimationOptions = { EmoteLoop = true, Attachto = true, xPos = -0.3, yPos = 0.1, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["search"] = {"custom@police", "police", "Search", "besearched", AnimationOptions = { EmoteMoving = true, EmoteLoop = false }},
+    ["besearched"] = {"missfam5_yoga", "a2_pose", "Be searched", "search", AnimationOptions = { EmoteMoving = true, EmoteLoop = false, Attachto = true, xPos = 0.0, yPos = 0.5, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["baseball"] = {"anim@arena@celeb@flat@paired@no_props@", "baseball_a_player_a", "Baseball", "baseballthrow"},
+    ["baseballthrow"] = {"anim@arena@celeb@flat@paired@no_props@", "baseball_a_player_b", "Baseball Throw", "baseball"},
+    ["beheld"] = {"mx_couple5_1_b", "mx_couple5_1_b_clip", "Be Held", "holdme", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = -0.0200, yPos = 0.2400, zPos = -0.0100, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["beheld2"] = {"mx_couple5_2_b", "mx_couple5_2_b_clip", "Be Held 2", "holdme2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = -0.1200, yPos = 0.3600, zPos = -0.0100, xRot = 0.0, yRot = 0.0, zRot = -180.0 }},
+    ["beheld3"] = {"mx_couple5_3_b", "mx_couple5_3_b_clip", "Be Held 3", "holdme3", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0400, yPos = 0.2100, zPos = -0.0300, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["bffpose"] = {"anim@male_couple_03_b", "m_couple_03_b_clip", "BFF Pose", "bffpose2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["bffpose2"] = {"anim@female_couple_03_b", "f_couple_03_b_clip", "BFF Pose 2", "bffpose", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0100, yPos = 0.1300, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 76.0000 }},
+    ["bigdogcarried"] = {"creatures@rottweiler@amb@sleep_in_kennel@", "sleep_in_kennel", "Big Dog Carried", "carrybigdog", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = -0.100, yPos = 0.650, zPos = 0.430, xRot = 0.0, yRot = 0.0, zRot = -100.00 }},
+    ["carry5"] = {"combat@drag_ped@", "injured_drag_plyr", "Drag injured", "carry6", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["carry6"] = {"combat@drag_ped@", "injured_drag_ped", "Be injured", "carry5", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = 0.0, yPos = 0.5, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["carrybigdog"] = {"anim@heists@box_carry@", "idle", "Carry Big Dog", "bigdogcarried", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["carrymecute"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_mal_002", "Carry Me Cute", "carrymecute2", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["carrymecute2"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_fem_002", "Carry Me Cute 2", "carrymecute", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0000, yPos = 0.0000, zPos = 0.0000, xRot = 0.0000, yRot = 0.0000, zRot = 0.0000 }},
+    ["carrymecute3"] = {"couplepose1cmg@animation", "couplepose1cmg_clip", "Carry Me Cute 3", "carrymecute4", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["carrymecute4"] = {"couplepose2cmg@animation", "couplepose2cmg_clip", "Carry Me Cute 4", "carrymecute3", AnimationOptions = { EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0100, yPos = 0.3440, zPos = -0.0100, xRot = 180.0000, yRot = 180.0000, zRot = -1.9999 }},
+    ["carrysmalldog"] = {"anim@heists@box_carry@", "idle", "Carry Small Dog", "smalldogcarried", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["carrysmalldog2"] = {"hooman@hugging_little_doggy", "base", "Carry Small Dog 2", "smalldogcarried2", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["coupledrinking(wineglasses)"] = {"anim@scripted@robbery@tun_prep_uni_ig1_couple@", "action_var_01_bank_manager", "Couple Drinking (Wine Glasses)", "coupledrinkingf(wineglasses)", AnimationOptions = { Prop = "p_wine_glass_s", PropBone = 60309, PropPlacement = { -0.0500, -0.0100, -0.1700, 0.0, 0.0, 0.0 }, EmoteMoving = false, EmoteLoop = true }},
+    ["coupledrinkingf(wineglasses)"] = {"anim@scripted@robbery@tun_prep_uni_ig1_couple@", "action_var_01_female", "Couple Drinking F (Wine Glasses)", "coupledrinking(wineglasses)", AnimationOptions = { Prop = "p_wine_glass_s", PropBone = 28422, PropPlacement = { 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 }, SyncOffsetSide = -0.04125, SyncOffsetFront = 0.11, EmoteMoving = false, EmoteLoop = true }},
+    ["couplehearthands"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_mal_005", "Couple Heart Hands", "couplehearthands2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["couplehearthands2"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_fem_005", "Couple Heart Hands 2", "couplehearthands", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = -0.1230, yPos = 0.4740, zPos = 0.0000, xRot = 0.0000, yRot = 0.0000, zRot = 94.0000 }},
+    ["coupleweddingpose1a"] = {"EnchantedBrwny@wedding1a", "wedding1a", "Couple Wedding Pose 1A", "coupleweddingpose1b", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["coupleweddingpose1b"] = {"EnchantedBrwny@wedding1b", "wedding1b", "Couple Wedding Pose 1B", "coupleweddingpose1a", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0300, yPos = 1.0000, zPos = 0.0200, xRot = 0.0000, yRot = 0.0000, zRot = 130.0000 }},
+    ["coupleweddingpose2a"] = {"EnchantedBrwny@wedding2b", "wedding2b", "Couple Wedding Pose 2A", "coupleweddingpose2b", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["coupleweddingpose2b"] = {"EnchantedBrwny@wedding2a", "wedding2a", "Couple Wedding Pose 2B", "coupleweddingpose2a", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0100, yPos = 0.2500, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = -88.9000 }},
+    ["cuff"] = {"mp_arresting", "a_arrest_on_floor", "Cuff", "cuff2", AnimationOptions = { EmoteMoving = false, EmoteLoop = false }},
+    ["cuff2"] = {"mp_arresting", "b_arrest_on_floor", "Be cuffed", "cuff", AnimationOptions = { EmoteMoving = false, EmoteLoop = false, Attachto = true, xPos = 0.0, yPos = 0.5, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["cuff3"] = {"mp_arresting", "a_uncuff", "Cuff 2", "cuff4", AnimationOptions = { EmoteMoving = false, EmoteLoop = false }},
+    ["cuff4"] = {"mp_arresting", "idle", "Be cuffed 2", "cuff3", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = 0.0, yPos = 0.5, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["cutepicpose"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_mal_004", "Cute Pic Pose", "cutepicpose2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["cutepicpose2"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_fem_004", "Cute Pic Pose 2", "cutepicpose", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.2700, yPos = 0.1200, zPos = 0.0000, xRot = 0.0000, yRot = 0.0000, zRot = 0.0000 }},
+    ["followa(front)"] = {"dollie_mods@follow_me_001", "follow_me_001", "Follow A (Front)", "followb(back)", AnimationOptions = { EmoteLoop = true, EmoteMoving = false }},
+    ["followb(back)"] = {"dollie_mods@follow_me_002", "follow_me_002", "Follow B (Back)", "followa(front)", AnimationOptions = { EmoteLoop = true, Attachto = true, xPos = 0.078, yPos = 0.018, zPos = 0.00, xRot = 0.00, yRot = 0.00, zRot = 0.00 }},
+    ["holdme"] = {"mx_couple5_1_a", "mx_couple5_1_a_clip", "Hold Me", "beheld", AnimationOptions = { EmoteLoop = true }},
+    ["holdme2"] = {"mx_couple5_2_a", "mx_couple5_2_a_clip", "Hold Me 2", "beheld2", AnimationOptions = { EmoteLoop = true }},
+    ["holdme3"] = {"mx_couple5_3_a", "mx_couple5_3_a_clip", "Hold Me 3", "beheld3", AnimationOptions = { EmoteLoop = true }},
+    ["hugpose"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_mal_001", "Hug Pose", "hugposewithme?", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["hugposetippytoes"] = {"littlespoon@friendship007", "friendship007", "Hug Pose Tippy Toes", "hugposetippytoes2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["hugposetippytoes2"] = {"littlespoon@friendship008", "friendship008", "Hug Pose Tippy Toes 2", "hugposetippytoes", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0100, yPos = 0.2700, zPos = 0.0, xRot = -180.0000, yRot = -180.0000, zRot = 10.0000 }},
+    ["hugposewithme?"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_fem_001", "Hug Pose With Me?", "hugpose", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.1400, yPos = 0.2500, zPos = 0.0000, xRot = 0.0000, yRot = 0.0000, zRot = 0.0000 }},
+    ["hugromantic1"] = {"misscarsteal2chad_goodbye", "chad_armsaround_chad", "Hug Romantic 1", "hugromantic2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, SyncOffsetSide = -0.05, SyncOffsetFront = 0.52 }},
+    ["hugromantic2"] = {"misscarsteal2chad_goodbye", "chad_armsaround_girl", "Hug Romantic 2", "hugromantic1", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, SyncOffsetSide = -0.05, SyncOffsetFront = 0.52 }},
+    ["kiss"] = {"hs3_ext-20", "cs_lestercrest_3_dual-20", "Kiss", "kiss2", AnimationOptions = { EmoteMoving = false, EmoteDuration = 10000, SyncOffsetFront = 0.08 }},
+    ["kiss2"] = {"hs3_ext-20", "csb_georginacheng_dual-20", "Kiss 2", "kiss", AnimationOptions = { EmoteMoving = false, EmoteDuration = 10000, SyncOffsetFront = 0.08 }},
+    ["kiss3"] = {"hs3_ext-19", "cs_lestercrest_3_dual-19", "Kiss 3", "kiss4", AnimationOptions = { EmoteMoving = false, EmoteDuration = 10000, SyncOffsetFront = 0.08 }},
+    ["kiss4"] = {"hs3_ext-19", "csb_georginacheng_dual-19", "Kiss 4", "kiss3", AnimationOptions = { EmoteMoving = false, EmoteDuration = 10000, SyncOffsetFront = 0.08 }},
+    ["kisscutecheek(female)"] = {"genesismods_kissme@kissfemale9", "kissfemale9", "Kiss Cute Cheek (Female)", "kisscutecheek(male)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["kisscutecheek(male)"] = {"genesismods_kissme@kissmale9", "kissmale9", "Kiss Cute Cheek (Male)", "kisscutecheek(female)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = 0.35, yPos = 0.0, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["kisscutelips(female)"] = {"chocoholic@couple13", "couple13_clip", "Kiss Cute Lips (Female)", "kisscutelips(male)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.1600, yPos = 0.2700, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 130.0 }},
+    ["kisscutelips(male)"] = {"chocoholic@couple14", "couple14_clip", "Kiss Cute Lips (Male)", "kisscutelips(female)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["kisscute-neck(female)"] = {"genesismods_kissme@kissfemale8", "kissfemale8", "Kiss Cute - Neck (Female)", "kisscute-neck(male)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["kisscute-neck(male)"] = {"genesismods_kissme@kissmale8", "kissmale8", "Kiss Cute - Neck (Male)", "kisscute-neck(female)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = -0.56, yPos = 0.0, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["kissforehead(female)"] = {"genesismods_kissme@kissfemale10", "kissfemale10", "Kiss Forehead (Female)", "kissforehead(male)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["kissforehead(male)"] = {"genesismods_kissme@kissmale10", "kissmale10", "Kiss Forehead (Male)", "kissforehead(female)", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = 0.38, yPos = 0.0, zPos = 0.0, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["liftme"] = {"couplepose1pack1anim2@animation", "couplepose1pack1anim2_clip", "Lift Me", "liftme2", AnimationOptions = { EmoteLoop = true }},
+    ["liftme2"] = {"couplepose1pack1anim1@animation", "couplepose1pack1anim1_clip", "Lift Me 2", "liftme", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0020, yPos = 0.2870, zPos = 0.2500, xRot = 0.0000, yRot = 0.0000, zRot = 180.0000 }},
+    ["liftme3"] = {"couplepose2pack1anim2@animation", "couplepose2pack1anim2_clip", "Lift Me 3", "liftme4", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["liftme4"] = {"couplepose2pack1anim1@animation", "couplepose2pack1anim1_clip", "Lift Me 4", "liftme3", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0100, yPos = 0.4800, zPos = 0.5300, xRot = 0.0000, yRot = 0.0000, zRot = 180.0000 }},
+    ["liftme5"] = {"couplepose3pack1anim2@animation", "couplepose3pack1anim2_clip", "Lift Me 5", "liftme6", AnimationOptions = { EmoteLoop = true }},
+    ["liftme6"] = {"couplepose3pack1anim1@animation", "couplepose3pack1anim1_clip", "Lift Me 6", "liftme5", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = -0.2120, yPos = -0.5400, zPos = -0.1000, xRot = 0.0000, yRot = 0.0000, zRot = 0.0000 }},
+    ["pback"] = {"mx@piggypack_a", "mxclip_a", "Offer Piggy Back 2", "pback2", AnimationOptions = { EmoteMoving = true, EmoteLoop = true }},
+    ["pback2"] = {"mx@piggypack_b", "mxanim_b", "Be Piggy Backed 2", "pback", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.0200, yPos = -0.4399, zPos = 0.4200, xRot = 0.0, yRot = 0.0, zRot = 0.0 }},
+    ["sitwithme"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_mal_003", "Sit With Me", "sitwithmeplease?", AnimationOptions = { EmoteMoving = false, EmoteLoop = true }},
+    ["sitwithmeplease?"] = {"amnilka@photopose@couple@couplefirst", "amnilka_couple_fem_003", "Sit With Me Please?", "sitwithme", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 0, xPos = 0.3540, yPos = 0.5110, zPos = 0.8310, xRot = 0.0000, yRot = 0.0000, zRot = -2.8000 }},
+    ["smalldogcarried"] = {"misssnowie@little_doggy_lying_down", "base", "Small Dog Carried", "carrysmalldog", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, xPos = -0.040, yPos = 0.330, zPos = 0.280, xRot = 0.0, yRot = 0.0, zRot = 80.0 }},
+    ["smalldogcarried2"] = {"little_doggy@hugging_hooman", "base", "Small Dog Carried 2", "carrysmalldog2", AnimationOptions = { EmoteMoving = false, EmoteLoop = true, Attachto = true, bone = 24818, xPos = -0.95, yPos = 0.16, zPos = -0.15, xRot = 3.70, yRot = 75.00, zRot = -161.90 }},
 }
-

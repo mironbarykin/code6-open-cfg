@@ -1,3 +1,101 @@
+Config = Config or {}
+
+Config.Debug = true
+
+Config.Identity = {
+    useOxGroups = false,
+    yrpUrl = GetConvar('code6:gamesyncUrl', 'https://code6.ru/api/gamesync.php?setting=us'),
+    departmentsUrl = GetConvar('code6:departmentsUrl', 'https://code6.ru/terminal/api/public.php?getdepartments'),
+    refreshMs = 5 * 60 * 1000,
+    fallbackRole = 'civ',
+    defaultDateOfBirth = 946684800000,
+    defaultGender = 'male',
+    syncCommand = 'charsync',
+    roles = {
+        civ = {
+            label = 'Civilian',
+            short = 'CIV',
+            terminals = { 'civ', '' },
+            defaultFirstName = 'Citizen',
+            defaultLastName = 'Resident',
+        },
+        admin = {
+            label = 'Admin',
+            short = 'ADMIN',
+            terminals = { 'admin' },
+            defaultFirstName = 'Staff',
+            defaultLastName = 'Admin',
+        },
+        pd = {
+            label = 'Police',
+            short = 'PD',
+            terminals = { 'pd', 'lspd', 'police' },
+            defaultFirstName = 'Police',
+            defaultLastName = 'Officer',
+            group = 'police',
+            grade = 1,
+            activeGroup = 'police',
+        },
+        so = {
+            label = 'Sheriff Office',
+            short = 'SO',
+            terminals = { 'so', 'bcso', 'sheriff' },
+            defaultFirstName = 'Sheriff',
+            defaultLastName = 'Deputy',
+            group = 'police',
+            grade = 1,
+            activeGroup = 'police',
+        },
+        hp = {
+            label = 'Highway Patrol',
+            short = 'HP',
+            terminals = { 'hp', 'sahp', 'trooper' },
+            defaultFirstName = 'Highway',
+            defaultLastName = 'Patrol',
+            group = 'sheriff',
+            grade = 1,
+            activeGroup = 'sheriff',
+        },
+        fd = {
+            label = 'Fire Department',
+            short = 'FD',
+            terminals = { 'safety', 'fd', 'fire', 'safd', 'safr' },
+            defaultFirstName = 'Fire',
+            defaultLastName = 'Rescue',
+            group = 'fire',
+            grade = 1,
+            activeGroup = 'fire',
+        },
+        dot = {
+            label = 'DOT',
+            short = 'DOT',
+            terminals = { 'dot' },
+            defaultFirstName = 'Transport',
+            defaultLastName = 'Officer',
+            group = 'dot',
+            grade = 1,
+            activeGroup = 'dot',
+        },
+        dispatch = {
+            label = 'Dispatch',
+            short = 'DISP',
+            terminals = { 'dispatch' },
+            defaultFirstName = 'Dispatch',
+            defaultLastName = 'Operator',
+        },
+        fib = {
+            label = 'FIB',
+            short = 'FIB',
+            terminals = { 'fib', 'fbi' },
+            defaultFirstName = 'Federal',
+            defaultLastName = 'Agent',
+            group = 'police',
+            grade = 1,
+            activeGroup = 'police',
+        },
+    },
+}
+
 Config.ItemTemplates = {
     commands = {
         create = 'itemcreate',
@@ -146,6 +244,16 @@ local taserGold = { tint = 2, weapontint = 'Gold' }
 local pistolLight = { components = { 'at_flashlight' } }
 local riflePatrol = { components = { 'at_flashlight', 'at_grip' } }
 local shotgunPatrol = { components = { 'at_flashlight' } }
+local medicBagPreset = {
+    containerPreset = {
+        { name = 'bandage', count = 8 },
+    },
+}
+local medicBagLargePreset = {
+    containerPreset = {
+        { name = 'bandage', count = 12 },
+    },
+}
 local lawEnforcementAttachments = {
     { name = 'at_flashlight' },
     { name = 'at_grip' },
@@ -169,6 +277,25 @@ local lawEnforcementAttachments = {
     { name = 'at_muzzle_precision' },
     { name = 'at_muzzle_heavy' },
     { name = 'at_muzzle_slanted' },
+}
+local lawTestingEquipment = {
+    { name = 'bac_tester' },
+}
+local fireMedicalTestingEquipment = {
+    { name = 'blood_sample_kit' },
+}
+local antidoteItems = {
+    { name = 'narcan' },
+}
+local civilianDrugItems = {
+    { name = 'joint' },
+    { name = 'bong' },
+    { name = 'cocaine_bag' },
+    { name = 'crack_rock' },
+    { name = 'meth_bag' },
+    { name = 'heroin_syringe' },
+    { name = 'pill_bottle' },
+    { name = 'lean_cup' },
 }
 
 local function appendArmoryItems(roleNames, items)
@@ -427,6 +554,11 @@ Config.RoleArmories = {
                 { name = 'police_duffle_bag' },
                 { name = 'police_duffle_bag_large' },
                 { name = 'police_backpack' },
+                { name = 'carry_box' },
+                { name = 'carry_cash_box' },
+                { name = 'carry_beer_box' },
+                { name = 'carry_tool_box' },
+                { name = 'carry_medic_box' },
                 { name = 'ammo-9' },
                 { name = 'ammo-38' },
                 { name = 'ammo-44' },
@@ -460,6 +592,7 @@ Config.RoleArmories = {
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
                 { name = 'WEAPON_KNIFE' },
+                { name = 'medic_bag_2', metadata = medicBagPreset },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'ammo-shotgun' },
@@ -493,6 +626,7 @@ Config.RoleArmories = {
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
                 { name = 'WEAPON_KNIFE' },
+                { name = 'medic_bag_2', metadata = medicBagPreset },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'ammo-shotgun' },
@@ -522,6 +656,7 @@ Config.RoleArmories = {
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
                 { name = 'WEAPON_KNIFE' },
+                { name = 'medic_bag_2', metadata = medicBagPreset },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'ammo-shotgun' },
@@ -551,7 +686,7 @@ Config.RoleArmories = {
                 { name = 'handcuff_key' },
                 { name = 'cable_ties' },
                 { name = 'WEAPON_KNIFE' },
-                { name = 'WEAPON_PROLASER4' },
+                { name = 'medic_bag_2', metadata = medicBagPreset },
                 { name = 'ammo-9' },
                 { name = 'ammo-rifle' },
                 { name = 'WEAPON_FLASHLIGHT' },
@@ -572,6 +707,9 @@ Config.RoleArmories = {
                 { name = 'police_duffle_bag' },
                 { name = 'police_duffle_bag_large' },
                 { name = 'police_backpack' },
+                { name = 'carry_medic_box' },
+                { name = 'medic_bag', metadata = medicBagLargePreset },
+                { name = 'medic_bag_2', metadata = medicBagPreset },
                 { name = 'WEAPON_FLASHLIGHT' },
                 { name = 'WEAPON_FIREEXTINGUISHER' },
                 { name = 'WEAPON_HALLIGAN' },
@@ -597,6 +735,7 @@ Config.RoleArmories = {
                 { name = 'police_duffle_bag' },
                 { name = 'police_duffle_bag_large' },
                 { name = 'police_backpack' },
+                { name = 'carry_tool_box' },
                 { name = 'WEAPON_FLASHLIGHT' },
                 { name = 'WEAPON_FIREEXTINGUISHER' },
                 { name = 'WEAPON_HAMMER' },
@@ -617,3 +756,7 @@ Config.RoleArmories = {
 }
 
 appendArmoryItems({ 'pd', 'so', 'hp', 'fib' }, lawEnforcementAttachments)
+appendArmoryItems({ 'pd', 'so', 'hp', 'fib' }, lawTestingEquipment)
+appendArmoryItems({ 'fd' }, fireMedicalTestingEquipment)
+appendArmoryItems({ 'pd', 'so', 'hp', 'fib', 'fd', 'civ', 'dispatch' }, antidoteItems)
+appendArmoryItems({ 'civ' }, civilianDrugItems)

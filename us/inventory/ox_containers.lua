@@ -47,7 +47,18 @@ end
 
 exports('setContainerProperties', setContainerProperties)
 
-local duffleBlacklist = { 'police_duffle_bag', 'police_duffle_bag_large', 'police_backpack' }
+local duffleBlacklist = {
+	'police_duffle_bag',
+	'police_duffle_bag_large',
+	'police_backpack',
+	'carry_box',
+	'carry_cash_box',
+	'carry_beer_box',
+	'carry_tool_box',
+	'carry_medic_box',
+	'medic_bag',
+	'medic_bag_2',
+}
 
 setContainerProperties('police_duffle_bag', {
 	slots = 4,
@@ -63,6 +74,48 @@ setContainerProperties('police_duffle_bag_large', {
 
 setContainerProperties('police_backpack', {
 	slots = 3,
+	maxWeight = 5000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('carry_box', {
+	slots = 4,
+	maxWeight = 5000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('carry_cash_box', {
+	slots = 3,
+	maxWeight = 3000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('carry_beer_box', {
+	slots = 6,
+	maxWeight = 6000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('carry_tool_box', {
+	slots = 10,
+	maxWeight = 10000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('carry_medic_box', {
+	slots = 2,
+	maxWeight = 3000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('medic_bag', {
+	slots = 12,
+	maxWeight = 8000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('medic_bag_2', {
+	slots = 5,
 	maxWeight = 5000,
 	blacklist = duffleBlacklist
 })

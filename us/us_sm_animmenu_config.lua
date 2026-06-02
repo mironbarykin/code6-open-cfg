@@ -6,8 +6,11 @@ Config.PersistentWalk = true -- Make walk style save after leaving server
 Config.MenuKey = "F3" -- Key to open menu
 
 Config.EnableQuickSlots = true
-Config.QuickSlotCount = 6
-Config.QuickSlotKeybinds = { "SHIFT+1", "SHIFT+2", "SHIFT+3", "SHIFT+4", "SHIFT+5", "SHIFT+6" }
+Config.QuickSlotCount = 5
+Config.QuickSlotPresetCount = 3
+-- RegisterKeyMapping не поддерживает «SHIFT+1», только одиночные клавиши.
+-- Shift проверяется отдельно в коде через Config.RequireShiftForQuickSlots ниже.
+Config.QuickSlotKeybinds = { "1", "2", "3", "4", "5" }
 Config.RequireShiftForQuickSlots = true
 
 -- Animation keys that should appear in the "NEW" tab.
@@ -15,74 +18,69 @@ Config.RequireShiftForQuickSlots = true
 -- 1) array style: { "key1", "key2" }
 -- 2) map style:   { key1 = true, key2 = true }
 Config.NewAnimations = {
-    "coprest11",
-    "coprest12",
-    "coprest13",
-    "handholster",
-    "coprest14",
-    "radio11",
-    "radio12",
-    "radio13",
-    "radio14",
-    "holsternew",
-    "radio10",
-    "coprest1",
-    "coprest2",
-    "coprest3",
-    "coprest4",
-    "handrest",
-    "beltpose3",
-    "det1",
-    "det2",
-    "det3",
-    "det4",
-    "det5",
-    "coprest5",
-    "coprest6",
-    "coprest7",
-    "copres8",
-    "copres9",
-    "coprest10",
-    "checkdoor",
-    "fence",
-    "gundownpart",
-    "gunuppart",
-    "leanpoint",
-    "vehiclelow",
-    "vehiclemed",
-    "vehiclehigh",
-    "holdgunmid",
-    "tssahp",
-    "bdcam1",
-    "bdcam2",
-    "c4an",
-    "handpock1",
-    "handpock2",
-    "handpock3",
-    "handpock4",
-    "shieldaim",
-    "binveh",
-    "carrybag",
-    "binoculars",
-    "cb",
-    "lidar",
-    "leocamera",
-    "paperwr",
-    "coffeecop",
-    "handshield",
-    "handshield2",
-    "handshield3",
-    "duinotepad",
-    "duiclipboard",
-    "radio9",
-    "holddocs",
-    "guntaser",
-    "baton1",
-    "baton2",
-    "radio8",
-    "lookatid",
-    "giveid",
-    "idveh"
+    "idveh",
+    "lapdshieldb",
+    "doorclipbrd",
+    "lholdsg",
+    "lholdsglspd",
+    "lholdsglssd",
+    "lholdsgsahp",
+    "fuckyouholster",
+    "wholdweapona",
+    "clenchfbelt",
+    "formalposeclow",
+    "formalposec",
+    "formalposebh",
+    "formalposebal",
+    "holsterbelta",
+    "vehtrafficc",
+    "ceclipboard",
+    "handheldear",
+    "radiohwater",
+    "radiohva",
+    "radiohlv",
+    "holdradiochesta",
+    "adjustradiov",
+    "adjradiolow",
+    "waimp",
+    "searchvehv",
+    "altvesta",
+    "highbothvesta",
+    "highholdr",
+    "highvholdr",
+    "holdvesrrl",
+    "holdvestllow",
+    "vestholdcenlb",
+    "vestholdceno",
+    "vestholdcl",
+    "sticklervesta",
+    "sticklervestba",
+    "sticklervestleft",
+    "fistvicstatic",
+    "vehpointlow",
+    "viccm",
+    "viceblown",
+    "vicfa",
+    "vicfb",
+    "vicguna",
+    "vichout",
+    "vicpassangerarm",
+    "vicpassangerarmoa",
+    "vicpassangerarmrest",
+    "vicpassangergrabr",
+    "vicpassangerpoint",
+    "vicpassangerpointarm",
+    "vicpassangerspotlighta",
+    "vicpoint",
+    "vicpointv",
+    "vicposea",
+    "vicposeb",
+    "vicpv",
+    "vicspotlightdr",
+    "vicvha",
+    "chainsawidle",
+    "chainsawidle2",
+    "chainsawsawing"
 }
 
 Config.Locales = { -- Locales
@@ -92,7 +90,8 @@ Config.Locales = { -- Locales
     ['help_keys'] = "Перемещение\n~INPUT_FRONTEND_RDOWN~ - Подтвердить\n~INPUT_VEH_DUCK~ - Отменить\n~INPUT_COVER~ - Повернуть влево\n~INPUT_PICKUP~ - Повернуть вправо\n~INPUT_RELOAD~ - Вверх\n~INPUT_ENTER~ - Вниз\n~INPUT_MOVE_LEFT_ONLY~ - Влево\n~INPUT_MOVE_RIGHT_ONLY~ - Вправо\n~INPUT_MOVE_UP_ONLY~ - Вперед\n~INPUT_MOVE_DOWN_ONLY~ - Назад",
     ['help_keys_cancel'] = "~INPUT_VEH_DUCK~ - Отменить",
     ['quickslot_empty'] = "В этом слоте нет анимации.",
-    ['quickslot_assigned'] = "Анимация сохранена в слот %s."
+    ['quickslot_assigned'] = "Анимация сохранена в слот %s.",
+    ['quickslot_preset_changed'] = "Выбран пресет быстрых анимаций %s."
 }
 
 Config.keys = {
@@ -144,6 +143,7 @@ Config.HandsupInCar = true
 Config.HoldToHandsUp = false
 Config.HandsupKeybindEnabled = true
 Config.HandsupKeybind = "U"
+Config.HandsupShiftEmote = "lie"
 
 Config.UsePointing = false
 Config.PointingInCar = true
@@ -152,3 +152,28 @@ Config.PointingKeybind = "B"
 
 Config.UseBackwardMovement = true
 Config.BackwardMovementKeybind = "J"
+
+-- Клавиша для вращения камерой при открытом меню анимаций (нажать — включить, нажать ещё раз — выключить).
+-- Toggle-режим выбран потому, что ALT в CEF/Windows перехватывается на системном уровне и hold-режим
+-- для ALT нестабилен. Если ставишь не-ALT клавишу — поведение остаётся toggle для единообразия.
+-- Привязка с этим именем появится в Settings → Key Bindings → FiveM ("Меню анимаций: вращение камеры").
+-- RotateCamKey    — FiveM-идентификатор клавиши, только для отображения в настройках игры.
+--   Список ID: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+-- RotateCamJsKey  — JavaScript event.key для детекта нажатия в NUI (включает режим вращения).
+--   Примеры: "Alt", "Shift", "Control", "Tab", "z", "F10".
+-- RotateCamRawKey — Windows VK-код для опроса удержания клавиши (выключает режим вращения).
+--   Примеры: 18=ALT, 16=SHIFT, 17=CTRL, 9=TAB, 90=Z, 121=F10. Полный список:
+--   https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+-- При смене клавиши синхронизируй все три значения.
+Config.RotateCamKey = "LMENU"
+Config.RotateCamJsKey = "Alt"
+Config.RotateCamRawKey = 18
+
+-- Положение клона-предпросмотра анимации на экране.
+-- PreviewScreenX / PreviewScreenY — экранные координаты (0.0 - 1.0).
+--   X: 0 = слева, 1 = справа.
+--   Y: 0 = сверху, 1 = снизу.
+-- PreviewDistance — расстояние от камеры до клона в метрах (меньше = ближе/крупнее).
+Config.PreviewScreenX = 0.55
+Config.PreviewScreenY = 0.50
+Config.PreviewDistance = 3.2

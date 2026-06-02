@@ -29,7 +29,9 @@
 | `us/us_px_spotlight_config.lua` | Настройки прожектора на транспорте | Разрешенные машины, положение прожектора, цвет и дальность света |
 | `us/us_weaponwheel_client.lua` | Названия оружия в колесе оружия | Отображаемые имена оружия |
 | `us/inventory/ox_items.lua` | Предметы ox_inventory | Название, вес, картинка, время использования, еда/вода, анимации |
+| `us/inventory/ox_shops.lua` | Магазины ox_inventory | Ассортимент магазинов, вендинга, ликерных и служебных точек |
 | `us/inventory/selfmanage_config_rolearmories.lua` | Локеры, арсеналы и стартовые предметы ролей | Состав арсеналов PD/SO/HP/FD/DOT/FIB, доступ по ролям, лимиты |
+| `us/consumables/*.lua` | Конфиги и слой code6_consumables | Еда, напитки, алкоголь, наркотики, остатки, BAC/кровь, метаданные тестов |
 | `us/inventory/images/*.png` | Иконки предметов | Добавление или замена картинок предметов (100х100px) |
 | `us/inventory/images/item_editor.psd` | Шаблон для иконок | Исходник для подготовки новых картинок |
 
@@ -52,7 +54,12 @@
 | `us/us_weaponwheel_client.lua` | `resources/[scripts]/weaponwheel/client.lua` |
 | `us/us_globalconfig_weapons_on_back.lua` | `resources/[scripts]/globalconfig/client.lua` |
 | `us/inventory/ox_items.lua` | `resources/[scripts]/ox_inventory/data/items.lua` |
+| `us/inventory/ox_shops.lua` | `resources/[scripts]/ox_inventory/data/shops.lua` |
+| `us/inventory/ox_containers.lua` | `resources/[scripts]/ox_inventory/modules/items/containers.lua` |
 | `us/inventory/selfmanage_config_rolearmories.lua` | `resources/[scripts]/code6_selfmanage/config.lua` |
+| `us/consumables/config.lua` | `resources/[scripts]/code6_consumables/config.lua` |
+| `us/consumables/client.lua` | `resources/[scripts]/code6_consumables/client.lua` |
+| `us/consumables/server.lua` | `resources/[scripts]/code6_consumables/server.lua` |
 
 ## Простые правила правок
 
