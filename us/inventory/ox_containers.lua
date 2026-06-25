@@ -58,6 +58,7 @@ local duffleBlacklist = {
 	'carry_medic_box',
 	'medic_bag',
 	'medic_bag_2',
+	'suit_case',
 }
 
 setContainerProperties('police_duffle_bag', {
@@ -117,6 +118,12 @@ setContainerProperties('medic_bag', {
 setContainerProperties('medic_bag_2', {
 	slots = 5,
 	maxWeight = 5000,
+	blacklist = duffleBlacklist
+})
+
+setContainerProperties('suit_case', {
+	slots = 5,
+	maxWeight = 4000,
 	blacklist = duffleBlacklist
 })
 
