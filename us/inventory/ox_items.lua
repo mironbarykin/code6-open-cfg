@@ -360,6 +360,21 @@ return {
 		}
 	},
 
+	['suit_case'] = {
+	    label = 'Suit Case',
+	    weight = 100,
+	    stack = false,
+	    close = false,
+		consume = 0,
+	    client = {
+	        anim = { dict = 'move_weapon@jerrycan@generic', clip = 'idle' },
+	        prop = {
+	            model = 'prop_security_case_01',
+	            pos = { x = 0.13, y = 0.0, y = -0.01},
+	            rot = { x = 0.0, y = 280.0, y = 90.0}
+	        },
+    }
+
 	['identification'] = {
 		label = 'Удостоверение личности',
 		client = {
